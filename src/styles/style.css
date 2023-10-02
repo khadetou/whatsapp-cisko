@@ -334,7 +334,8 @@ ul {
     Header Menu CSS
 =================== */
 .hoperaiser-header {
-  background-color: #16231f;
+  /* background-color: #16231f; */
+  background-color: #fff;
   z-index: 2;
   position: relative;
   border-bottom: 1px solid #e8faf352;
@@ -349,7 +350,7 @@ ul {
 
 .hoperaiser-menu nav ul li {
   display: inline-block;
-  margin-right: 40px;
+  margin-right: 28px;
   position: relative;
   z-index: 1;
 }
@@ -359,7 +360,7 @@ ul {
   font-size: 16px;
   font-weight: 400;
   line-height: 26px;
-  color: #bbbbbb;
+  color: #1b8741;
   display: block;
   position: relative;
   z-index: 1;
@@ -376,7 +377,7 @@ ul {
   bottom: 0;
   width: 35%;
   height: 2px;
-  background-color: #1eca8c;
+  background-color: #664218;
   -webkit-transition: all 0.6s ease-in-out;
   -o-transition: all 0.6s ease-in-out;
   transition: all 0.6s ease-in-out;
@@ -404,7 +405,7 @@ ul {
 
 .hoperaiser-menu nav ul li a:hover,
 .hoperaiser-menu nav ul li.active a {
-  color: #1eca8c;
+  color: #664218;
 }
 
 .hoperaiser-menu nav ul li.active a {
@@ -543,16 +544,17 @@ ul {
   width: 24px;
   height: 24px;
   display: inline-block;
-  color: #ededed;
+  color: #222;
   -webkit-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
 
 .hoperaiser-top-user {
-  padding-right: 45px;
-  padding-left: 45px;
-  border-right: 1px solid #e8faf352;
+  padding-right: 19px;
+  padding-left: 19px;
+  border-right: 1px solid #1a1f1a52;
+  border-left: 1px solid #1a1f1a52;
 }
 
 .hoperaiser-serach,
@@ -571,12 +573,12 @@ ul {
 }
 
 .hoperaiser-top-contact {
-  padding-left: 45px;
+  padding-left: 12px;
 }
 
 .hoperaiser-top-contact p a {
   text-decoration: none;
-  color: #fff;
+  color: #222;
   font-weight: 500;
   -webkit-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
@@ -590,7 +592,7 @@ ul {
 }
 
 .hoperaiser-top-contact p span {
-  color: #eeaa21;
+  color: #664218;
   margin-bottom: 6px;
   display: inline-block;
 }
@@ -677,7 +679,7 @@ ul {
   line-height: 26px;
   color: #fff;
   text-decoration: none;
-  background-color: #1eca8c;
+  background-color: #199246;
   padding: 14px 32px;
   display: inline-block;
   border-radius: 6px;
@@ -690,7 +692,7 @@ ul {
 }
 
 .btn-primary-c:hover {
-  background-color: #eeaa21;
+  background-color: #644604;
 }
 
 .btn-primary-c::after {
@@ -865,7 +867,7 @@ ul {
   bottom: 0;
   width: 100%;
   height: 50%;
-  background-color: #223931;
+  background-color: #644604;
   z-index: -1;
 }
 
@@ -950,7 +952,7 @@ ul {
 .single-offer a span svg {
   width: 20px;
   height: 20px;
-  color: #1eca8c;
+  color: #00501f;
 }
 
 .single-offer a span {
@@ -982,7 +984,7 @@ ul {
 }
 
 .single-offer a:hover {
-  color: #1eca8c;
+  color: #00501f;
 }
 
 .shape-section2 img {
@@ -1113,7 +1115,7 @@ ul {
 .play-video {
   width: 70px;
   height: 70px;
-  background-color: #eeaa21;
+  background-color: #664218;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1157,7 +1159,7 @@ ul {
 }
 
 .play-video:hover {
-  background-color: #1eca8c;
+  background-color: #00501f;
 }
 
 .play-video a {
@@ -1177,7 +1179,7 @@ ul {
     Introduce Our Campaign CSS
 ============================== */
 .our-campaign {
-  background-color: #e8faf3;
+  background-color: #00501f;
   padding-top: 60px;
   padding-bottom: 60px;
 }
@@ -1191,7 +1193,7 @@ ul {
   font-size: 20px;
   font-weight: 400;
   line-height: normal;
-  color: #eeaa21;
+  color: #eee;
   text-transform: uppercase;
   margin-bottom: 6px;
   letter-spacing: 1px;
@@ -1199,7 +1201,7 @@ ul {
 
 .heading-common h2 {
   font-size: 48px;
-  color: #181d1a;
+  color: #fff;
   font-weight: 600;
   line-height: normal;
   margin-bottom: 14px;
@@ -1207,7 +1209,7 @@ ul {
 
 .heading-common p {
   font-size: 16px;
-  color: #444b47;
+  color: #fff;
   line-height: 26px;
   font-weight: 400;
   margin-bottom: 0;
@@ -1343,7 +1345,7 @@ ul {
   text-decoration: none;
   text-align: center;
   color: #fff;
-  background-color: #1eca8c;
+  background-color: #199246;
   font-size: 20px;
   font-weight: 600;
   line-height: 26px;
@@ -1383,7 +1385,7 @@ ul {
 }
 
 .btn-donate:hover {
-  background-color: #eeaa21;
+  background-color: #644604;
 }
 
 .donation-bottom-description {
@@ -1645,7 +1647,7 @@ ul {
 }
 
 .cta-right a:hover {
-  color: #eeaa21;
+  color: #664218;
 }
 
 .cta-shape img {
@@ -1756,7 +1758,7 @@ ul {
   background-position: 0 180px;
   background-repeat: no-repeat;
   background-size: 100% 65%;
-  background-color: #e8faf3;
+  background-color: #664218;
   padding-top: 85px;
   padding-bottom: 85px;
 }
@@ -2016,7 +2018,7 @@ ul {
 ============ */
 
 .blog-posts {
-  background-color: #fdf6e9;
+  background-color: #00501f;
   padding-top: 80px;
   padding-bottom: 80px;
 }
@@ -2251,7 +2253,7 @@ ul {
 
 .footer-left a img {
   width: 198px;
-  height: 54px;
+  height: auto;
   -o-object-fit: cover;
   object-fit: cover;
 }
@@ -3852,7 +3854,7 @@ ul {
 }
 
 .hoperaiser-header-v3 .hoperaiser-top-contact p a {
-  color: #676968;
+  color: #222;
 }
 
 .hoperaiser-header-v3 .hoperaiser-top-contact p a:hover {

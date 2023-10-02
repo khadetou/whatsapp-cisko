@@ -1,7 +1,45 @@
 import Image from "next/image";
 import Link from "next/link";
+import { FC } from "react";
 
-const Footer = () => {
+interface FooterProps {
+  footer: {
+    donateText: string;
+    navigationTitle: string;
+    navigationLinks: {
+      faq: string;
+      aboutUs: string;
+      contactUs: string;
+      donate: string;
+      joinCommunity: string;
+      events: string;
+    };
+    stayConnectedTitle: string;
+    stayConnectedDescription: string;
+    subscribePlaceholder: string;
+    subscribeButton: string;
+    quote: string;
+    copyrightText: string;
+    footerTermsLinks: {
+      termsOfUse: string;
+      termsAndPrivacy: string;
+    };
+  };
+}
+const Footer: FC<FooterProps> = ({
+  footer: {
+    copyrightText,
+    donateText,
+    footerTermsLinks,
+    navigationLinks,
+    navigationTitle,
+    quote,
+    stayConnectedDescription,
+    stayConnectedTitle,
+    subscribeButton,
+    subscribePlaceholder,
+  },
+}) => {
   return (
     <footer className="footer-v1">
       <div className="container">
@@ -9,14 +47,9 @@ const Footer = () => {
           <div className="col-lg-4 col-md-6">
             <div className="footer-left">
               <Link href="/">
-                <Image
-                  width={198}
-                  height={54}
-                  src="/images/logo-v2.svg"
-                  alt=""
-                />
+                <Image width={198} height={54} src="/images/logo.svg" alt="" />
               </Link>
-              <p>Donate and help others people around the world</p>
+              <p>{donateText}</p>
               <ul>
                 <li>
                   <Link href="">
@@ -53,49 +86,44 @@ const Footer = () => {
           </div>
           <div className="col-lg-2 offset-lg-1 col-md-6">
             <div className="footer-middle">
-              <h3>Navigation's</h3>
+              <h3>{navigationTitle}</h3>
               <ul>
                 <li>
-                  <a href="faqs.html">FAQ</a>
+                  <a href="faqs.html">{navigationLinks.faq}</a>
                 </li>
                 <li>
-                  <a href="about-us.html">About us</a>
+                  <a href="about-us.html">{navigationLinks.aboutUs}</a>
                 </li>
                 <li>
-                  <a href="contact-us-v1.html">Contact Us</a>
+                  <a href="contact-us-v1.html">{navigationLinks.contactUs}</a>
                 </li>
                 <li>
-                  <a href="donate-now.html">Donate</a>
+                  <a href="donate-now.html">{navigationLinks.donate}</a>
                 </li>
                 <li>
-                  <a href="become-volunteer.html">Join Our Community</a>
+                  <a href="become-volunteer.html">
+                    {navigationLinks.joinCommunity}
+                  </a>
                 </li>
                 <li>
-                  <a href="events.html">Events</a>
+                  <a href="events.html">{navigationLinks.events}</a>
                 </li>
               </ul>
             </div>
           </div>
           <div className="col-lg-5 col-md-12">
             <div className="footer-right">
-              <h3>Stay connected</h3>
-              <p>
-                To ensure that you receive all the latest news and updates from
-                our organization, we invite you to subscribe to our mailing list
-              </p>
+              <h3>{stayConnectedTitle}</h3>
+              <p>{stayConnectedDescription}</p>
               <form action="#">
                 <input type="email" placeholder="Email Address" />
-                <button type="submit">Subscribe</button>
+                <button type="submit">{subscribeButton}</button>
               </form>
             </div>
           </div>
           <div className="col-lg-12">
             <div className="footer-quote">
-              <p>
-                At HopeRaiser, we are dedicated to making a positive impact in
-                the lives of those we serve. We believe that every <br />{" "}
-                individual has the power to create society.
-              </p>
+              <p>{quote}</p>
             </div>
           </div>
         </div>
@@ -105,17 +133,17 @@ const Footer = () => {
           </div>
           <div className="col-lg-6 col-md-6">
             <div className="copyright-text">
-              <p>©HopeRaiser.com 2023. All Rights Reserved.</p>
+              <p>{copyrightText}</p>
             </div>
           </div>
           <div className="col-lg-6 col-md-6">
             <div className="footer-terms">
               <ul>
                 <li>
-                  <a href="#">Terms of Use</a>
+                  <a href="#">{footerTermsLinks.termsOfUse}</a>
                 </li>
                 <li>
-                  <a href="#">Terms & Privacy</a>
+                  <a href="#">{footerTermsLinks.termsAndPrivacy}</a>
                 </li>
               </ul>
             </div>

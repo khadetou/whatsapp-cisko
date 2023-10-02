@@ -1,0 +1,282 @@
+{
+    "header": {
+        "home": "Home",
+        "aboutUs": "About Us",
+        "events": "Events",
+        "volunteer": "Volunteer",
+        "donateNow": "Donate",
+        "campaign": "Campaign",
+        "contact": "Contact",
+        "contactUs": "Contact Us"
+    },
+    "heroSection": {
+        "topTitle": "Support Our Cause",
+        "mainTitle": "Make a Difference Together",
+        "paragraph": "Join us in creating a future where every life is valued by supporting our education, healthcare, and livelihood initiatives.",
+        "donateButton": "Donate Now"
+    },
+    "impactStatements": {
+        "brighterTomorrow": "Brighter  Tomorrow",
+        "givingHearts": "Giving Hearts",
+        "impactfulGiving": "Impactful Giving",
+        "loveInAction": "Love in Action",
+        "compassionCollective": "Compassion Collective"
+    },
+    "supportingCauses": {
+        "kidsEducation": {
+            "title": "Kids Education",
+            "description": "Our mission is to ensure that every child has access to healthy, nutritious meals regardless of their socio-economic status.",
+            "link": {
+                "text": "Know more",
+                "icon": "arrow-right"
+            }
+        },
+        "healthyFood": {
+            "title": "Healthy Food",
+            "description": "Our mission is to ensure that every child has access to healthy, nutritious meals regardless of their socio-economic status.",
+            "link": {
+                "text": "Know more",
+                "icon": "arrow-right"
+            }
+        },
+        "treatment": {
+            "title": "Treatment",
+            "description": "Our mission is to ensure that every child has access to healthy, nutritious meals regardless of their socio-economic status.",
+            "link": {
+                "text": "Know more",
+                "icon": "arrow-right"
+            }
+        }
+    },
+    "supportingCauses1": {
+        "youthEmpowerment": {
+            "title": "Youth Empowerment Programs",
+            "description": "We focus on empowering the youth through skill development, education, and mentorship programs, enabling them to shape a brighter future.",
+            "link": {
+                "text": "Know more",
+                "icon": "arrow-right"
+            }
+        },
+        "communityHealth": {
+            "title": "Community Health Initiatives",
+            "description": "We are committed to improving community health by providing access to healthcare services, preventive measures, and health education.",
+            "link": {
+                "text": "Know more",
+                "icon": "arrow-right"
+            }
+        },
+        "environmentalSustainability": {
+            "title": "Environmental Sustainability Projects",
+            "description": "Our initiatives focus on sustainability, eco-friendly practices, and conservation efforts to protect and preserve our environment for future generations.",
+            "link": {
+                "text": "Know more",
+                "icon": "arrow-right"
+            }
+        }
+    },
+    "objectives": {
+        "title": "Our objective is to aid the community",
+        "fundraising": "Fundraising campaign in all time",
+        "donations": "Raised and counting donations in all time",
+        "volunteers": "Our volunteer around the world",
+        "reviews": "Positive review from public",
+        "belief": "Our organization truly believes that by working together, we can save more lives than ever before."
+    },
+    "objectives1": {
+        "title": "Empowering Communities through Technology",
+        "initiatives": "Supporting innovative initiatives for social change",
+        "partnerships": "Fostering collaborations to drive sustainable impact",
+        "advocacy": "Promoting digital literacy and inclusive technology access",
+        "belief": "We believe in utilizing technology for positive community transformation."
+    },
+    "campaigns": {
+        "helpOthersTitle": "Help Others",
+        "introduceCampaignTitle": "Introduce Our Campaign",
+        "introduceCampaignText": "How to do something great to help others. We try our best to help helpless people. See our progress in numbers.",
+        "booksCampaignTitle": "Campaign to provide books for children",
+        "booksCampaignText": "We focus on child education, which is critical in ensuring that children have access to quality education and the opportunity to reach their full potential.",
+        "booksCampaignGoals": "Goals: $25000",
+        "booksCampaignRaised": "Raised: $21000",
+        "foodTitle": "Food",
+        "foodCampaignTitle": "Every child needs healthy foods",
+        "foodCampaignText": "We focus on child education, which is critical in ensuring that children have access to quality education and the opportunity to reach their full potential.",
+        "foodCampaignGoals": "Goals: $35000",
+        "foodCampaignRaised": "Raised: $25000",
+        "healthTitle": "Health",
+        "healthCampaignTitle": "Treatment for every helpless child",
+        "healthCampaignText": "We focus on child education, which is critical in ensuring that children have access to quality education and the opportunity to reach their full potential.",
+        "healthCampaignGoals": "Goals: $30000",
+        "healthCampaignRaised": "Raised: $28000",
+        "educationTitle": "Education",
+        "educationCampaignTitle": "Support children's education for a brighter future",
+        "educationCampaignText": "Education is the cornerstone of a better future. Help us provide quality education to children in need, giving them hope and opportunities.",
+        "educationCampaignGoals": "Goals: $40000",
+        "educationCampaignRaised": "Raised : $32000",
+        "btnDonate": "Donate",
+        "btnBrowseAll": "Browse All"
+    },
+    "campaings1": {
+        "supportingCommunities": "Supporting Communities",
+        "empoweringLives": "Empowering Lives, Together",
+        "empoweringLivesDescription": "Join us in our mission to uplift communities and provide them with essential resources for a better tomorrow.",
+        "cleanWaterCampaign": "Campaign for Clean Water",
+        "cleanWaterDescription": "Access to clean and safe water is a fundamental human right. Our campaign focuses on ensuring communities have this basic necessity for a healthier and happier life.",
+        "cleanWaterGoal": "Goal: $20000",
+        "cleanWaterRaised": "Raised: $15000",
+        "educationalSupport": "Educational Support",
+        "enablingEducation": "Enabling Education for All",
+        "educationDescription": "Education is the key to a brighter future. We aim to support educational initiatives that empower every child to reach their full potential.",
+        "educationGoal": "Goal: $30000",
+        "educationRaised": "Raised: $25000",
+        "healthcare": "Healthcare",
+        "improvingHealth": "Improving Health, Saving Lives",
+        "healthcareDescription": "Accessible healthcare is crucial for a community's well-being. Help us make quality healthcare services accessible to those in need.",
+        "healthcareGoal": "Goal: $25000",
+        "healthcareRaised": "Raised: $20000",
+        "exploreCampaigns": "Explore More Campaigns"
+    },
+    "callToAction": {
+        "savingSight": "Since 1990, we’ve been saving sight and changing lives around the world",
+        "joinCommunity": "Join our community to volunteer and help people in need around the world",
+        "ctaButtonJoin": "Join Now",
+        "contactUs": "Contact us for a case evaluation"
+    },
+    "callToAction1": {
+        "vision": "Our Vision",
+        "visionDescription": "Empowering communities through sustainable development initiatives, creating a brighter future for all.",
+        "joinOurCause": "Join Our Cause",
+        "joinOurCauseDescription": "Become a part of our mission to make a positive impact on the lives of people in need."
+    },
+    "events": {
+        "upcomingEvents": "Upcoming Events",
+        "discoverEvents": "Discover our upcoming Events",
+        "eventsDescription": "Upcoming charity events are an excellent opportunity to support a good cause and make a positive impact in your community. Before attending an event, it's important to understand its purpose and the charity it supports.",
+        "event1Title": "Annual Charity Walk for Kids",
+        "event1Description": "On April 22nd, join us for our annual walk to raise money for Helpless kids. The event will take place at Central Park and will include a 5k walk, live music, and food trucks."
+    },
+    "faqSection": {
+        "title": "FAQ’s – Frequently Asked Questions",
+        "description": "As you might imagine, real estate agents field quite a few questions every day. People are naturally curious, and it’s an agent’s job to guide.",
+        "questions": [
+            {
+                "question": "What is a charity organization?",
+                "answer": "A charity organization is a non-profit organization that aims to help people, animals, or the environment by providing various forms of assistance or support."
+            },
+            {
+                "question": "What kinds of services do charity organizations offer?",
+                "answer": "A charity organization is a non-profit organization that aims to help people, animals, or the environment by providing various forms of assistance or support."
+            },
+            {
+                "question": "How can I donate to a charity organization?",
+                "answer": "A charity organization is a non-profit organization that aims to help people, animals, or the environment by providing various forms of assistance or support."
+            },
+            {
+                "question": "Can I volunteer for a charity organization?",
+                "answer": "A charity organization is a non-profit organization that aims to help people, animals, or the environment by providing various forms of assistance or support."
+            }
+        ]
+    },
+    "faqSection1": {
+        "faqTitle": "FAQs – Frequently Asked Questions",
+        "faqs": [
+            {
+                "question": "What is the mission of your organization?",
+                "answer": "Our mission is to make a positive impact on society by supporting and assisting those in need through various charitable activities and initiatives."
+            },
+            {
+                "question": "How can I donate to your organization?",
+                "answer": "You can make a donation to our organization by visiting our 'Donate' page on our website. We accept both one-time and recurring donations."
+            },
+            {
+                "question": "Are my donations tax-deductible?",
+                "answer": "Yes, your donations are tax-deductible. We will provide a tax receipt for all the donations you make to our organization."
+            },
+            {
+                "question": "Can I volunteer for your organization?",
+                "answer": "Yes, we welcome volunteers who are passionate about our cause. Visit our 'Volunteer' page to find more information about how you can get involved."
+            }
+        ]
+    },
+    "successStoriesSection": {
+        "successStoriesTitle": "Our Success Stories",
+        "latestNewsTitle": "Latest News and Articles from the Blog Posts",
+        "categories": {
+            "food": {
+                "title": "Food",
+                "content": {
+                    "heading": "How Your Donations are Making a Difference in the Lives of Children",
+                    "description": "Charity organizations play a crucial role in creating a better world. Their efforts help to make a positive impact in the lives of people who are less fortunate."
+                }
+            },
+            "education": {
+                "title": "Education",
+                "content": {
+                    "heading": "Donate today to change children's lives through Education",
+                    "description": "Charity organizations play a crucial role in creating a better world. Their efforts help to make a positive impact in the lives of people who are less fortunate."
+                }
+            },
+            "medicine": {
+                "title": "Medicine",
+                "content": {
+                    "heading": "Give hope. Help kids. Donate for medical treatment today",
+                    "description": "Charity organizations play a crucial role in creating a better world. Their efforts help to make a positive impact in the lives of people who are less fortunate."
+                }
+            }
+        },
+        "browseAll": "Browse All"
+    },
+    "successStoriesSection1": {
+        "successStoriesTitle": "Our Impactful Stories",
+        "latestNewsTitle": "Discover the Latest News and Articles from our Blog",
+        "categories": {
+            "food": {
+                "title": "Food",
+                "content": {
+                    "heading": "How Your Donations are Changing Lives of Children",
+                    "description": "Charity organizations play a vital role in creating a better world. Their efforts help make a positive impact in the lives of people who are less fortunate."
+                }
+            },
+            "education": {
+                "title": "Education",
+                "content": {
+                    "heading": "Donate today to Shape Children's Futures through Education",
+                    "description": "Charity organizations play a crucial role in creating a better world. Their efforts help make a positive impact in the lives of people who are less fortunate."
+                }
+            },
+            "medicine": {
+                "title": "Medicine",
+                "content": {
+                    "heading": "Give Hope. Help Kids. Donate for Medical Treatment Today",
+                    "description": "Charity organizations play a crucial role in creating a better world. Their efforts help make a positive impact in the lives of people who are less fortunate."
+                }
+            }
+        },
+        "browseAll": "Browse All"
+    },
+    "footer": {
+        "donateText": "Donate and help people around the world",
+        "navigationTitle": "Navigation",
+        "navigationLinks": {
+            "faq": "FAQ",
+            "aboutUs": "About us",
+            "contactUs": "Contact Us",
+            "donate": "Donate",
+            "joinCommunity": "Join Our Community",
+            "events": "Events"
+        },
+        "stayConnectedTitle": "Stay connected",
+        "stayConnectedDescription": "To ensure that you receive all the latest news and updates from our organization, we invite you to subscribe to our mailing list",
+        "subscribePlaceholder": "Email Address",
+        "subscribeButton": "Subscribe",
+        "quote": "At Watsappcisko, we are dedicated to making a positive impact in the lives of those we serve. We believe that every individual has the power to create society.",
+        "copyrightText": "© Watsappcisko.com 2023. All Rights Reserved.",
+        "footerTermsLinks": {
+            "termsOfUse": "Terms of Use",
+            "termsAndPrivacy": "Terms & Privacy"
+        }
+    },
+    "seo": {
+        "siteTitle": "WhatsApp Cisko - Connecting Communities, Empowering Lives | Technology for Social Good",
+        "siteDescription": "Join WhatsApp Cisko to connect communities and make a positive impact on lives through technology. Empowering lives and creating social good."
+    }
+}

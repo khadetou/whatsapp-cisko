@@ -1,0 +1,282 @@
+{
+    "header": {
+        "home": "Accueil",
+        "aboutUs": "À propos",
+        "events": "Événements",
+        "volunteer": "Bénévole",
+        "donateNow": "Donner",
+        "campaign": "Campagne",
+        "contact": "Contact",
+        "contactUs": "Contactez-nous"
+    },
+    "heroSection": {
+        "topTitle": "Soutenez notre cause",
+        "mainTitle": "Faisons une différence ensemble",
+        "paragraph": "Rejoignez-nous pour créer un avenir où chaque vie est valorisée en soutenant nos initiatives en matière d'éducation, de santé et de subsistance.",
+        "donateButton": "Faites un don"
+    },
+    "impactStatements": {
+        "brighterTomorrow": "Un Avenir Meilleur",
+        "givingHearts": "Des Cœurs Généreux",
+        "impactfulGiving": "Don Impactant",
+        "loveInAction": "L'Amour en Action",
+        "compassionCollective": "La Compassion"
+    },
+    "supportingCauses": {
+        "kidsEducation": {
+            "title": "Éducation des enfants",
+            "description": "Notre mission est de veiller à ce que chaque enfant ait accès à des repas sains et nutritifs, quel que soit son statut socio-économique.",
+            "link": {
+                "text": "En savoir plus",
+                "icon": "arrow-right"
+            }
+        },
+        "healthyFood": {
+            "title": "Alimentation saine",
+            "description": "Notre mission est de veiller à ce que chaque enfant ait accès à des repas sains et nutritifs, quel que soit son statut socio-économique.",
+            "link": {
+                "text": "En savoir plus",
+                "icon": "arrow-right"
+            }
+        },
+        "treatment": {
+            "title": "Traitement",
+            "description": "Notre mission est de veiller à ce que chaque enfant ait accès à des repas sains et nutritifs, quel que soit son statut socio-économique.",
+            "link": {
+                "text": "En savoir plus",
+                "icon": "arrow-right"
+            }
+        }
+    },
+    "supportingCauses1": {
+        "youthEmpowerment": {
+            "title": "Programmes d'autonomisation des jeunes",
+            "description": "Nous mettons l'accent sur l'autonomisation des jeunes grâce au développement des compétences, à l'éducation et à des programmes de mentorat, leur permettant de façonner un avenir meilleur.",
+            "link": {
+                "text": "En savoir plus",
+                "icon": "arrow-right"
+            }
+        },
+        "communityHealth": {
+            "title": "Initiatives de santé communautaire",
+            "description": "Nous nous engageons à améliorer la santé communautaire en fournissant l'accès à des services de santé, des mesures préventives et de l'éducation en matière de santé.",
+            "link": {
+                "text": "En savoir plus",
+                "icon": "arrow-right"
+            }
+        },
+        "environmentalSustainability": {
+            "title": "Projets de durabilité environnementale",
+            "description": "Nos initiatives sont axées sur la durabilité, les pratiques respectueuses de l'environnement et les efforts de conservation pour protéger et préserver notre environnement pour les générations futures.",
+            "link": {
+                "text": "En savoir plus",
+                "icon": "arrow-right"
+            }
+        }
+    },
+    "objectives": {
+        "title": "Notre objectif est d'aider la communauté",
+        "fundraising": "Campagne de collecte de fonds en tout temps",
+        "donations": "Dons collectés et en cours en tout temps",
+        "volunteers": "Nos volontaires à travers le monde",
+        "reviews": "Avis positifs du public",
+        "belief": "Notre organisation croit fermement qu'en travaillant ensemble, nous pouvons sauver plus de vies que jamais auparavant."
+    },
+    "objectives1": {
+        "title": "Donner du pouvoir aux communautés grâce à la technologie",
+        "initiatives": "Soutenir des initiatives innovantes pour le changement social",
+        "partnerships": "Favoriser les collaborations pour générer un impact durable",
+        "advocacy": "Promouvoir la littératie numérique et l'accès inclusif à la technologie",
+        "belief": "Nous croyons en l'utilisation de la technologie pour une transformation communautaire positive."
+    },
+    "campaigns": {
+        "helpOthersTitle": "Aider les autres",
+        "introduceCampaignTitle": "Présenter notre campagne",
+        "introduceCampaignText": "Comment faire quelque chose de formidable pour aider les autres. Nous faisons de notre mieux pour aider les personnes démunies. Découvrez notre progression en chiffres.",
+        "booksCampaignTitle": "Campagne pour fournir des livres aux enfants",
+        "booksCampaignText": "Nous nous concentrons sur l'éducation des enfants, ce qui est crucial pour garantir que les enfants aient accès à une éducation de qualité et à la possibilité de réaliser leur plein potentiel.",
+        "booksCampaignGoals": "Objectifs : 25000 $",
+        "booksCampaignRaised": "Collecté : 21000 $",
+        "foodTitle": "Nourriture",
+        "foodCampaignTitle": "Chaque enfant a besoin d'une alimentation saine",
+        "foodCampaignText": "Nous nous concentrons sur l'éducation des enfants, ce qui est crucial pour garantir que les enfants aient accès à une éducation de qualité et à la possibilité de réaliser leur plein potentiel.",
+        "foodCampaignGoals": "Objectifs : 35000 $",
+        "foodCampaignRaised": "Collecté : 25000 $",
+        "healthTitle": "Santé",
+        "healthCampaignTitle": "Traitement pour chaque enfant démunie",
+        "healthCampaignText": "Nous nous concentrons sur l'éducation des enfants, ce qui est crucial pour garantir que les enfants aient accès à une éducation de qualité et à la possibilité de réaliser leur plein potentiel.",
+        "healthCampaignGoals": "Objectifs : 30000 $",
+        "healthCampaignRaised": "Collecté : 28000 $",
+        "educationTitle": "Éducation",
+        "educationCampaignTitle": "Soutenez l'éducation des enfants pour un avenir meilleur",
+        "educationCampaignText": "L'éducation est le fondement d'un avenir meilleur. Aidez-nous à fournir une éducation de qualité aux enfants dans le besoin, en leur offrant espoir et opportunités.",
+        "educationCampaignGoals": "Objectifs : 40000 $",
+        "educationCampaignRaised": "Collecté : 32000 $",
+        "btnDonate": "Faire un don",
+        "btnBrowseAll": "Parcourir tout"
+    },
+    "campaigns1": {
+        "supportingCommunities": "Supporting Communities",
+        "empoweringLives": "Empowering Lives, Together",
+        "empoweringLivesDescription": "Join us in our mission to uplift communities and provide them with essential resources for a better tomorrow.",
+        "cleanWaterCampaign": "Campaign for Clean Water",
+        "cleanWaterDescription": "Access to clean and safe water is a fundamental human right. Our campaign focuses on ensuring communities have this basic necessity for a healthier and happier life.",
+        "cleanWaterGoal": "Goal: $20000",
+        "cleanWaterRaised": "Raised: $15000",
+        "educationalSupport": "Educational Support",
+        "enablingEducation": "Enabling Education for All",
+        "educationDescription": "Education is the key to a brighter future. We aim to support educational initiatives that empower every child to reach their full potential.",
+        "educationGoal": "Goal: $30000",
+        "educationRaised": "Raised: $25000",
+        "healthcare": "Healthcare",
+        "improvingHealth": "Improving Health, Saving Lives",
+        "healthcareDescription": "Accessible healthcare is crucial for a community's well-being. Help us make quality healthcare services accessible to those in need.",
+        "healthcareGoal": "Goal: $25000",
+        "healthcareRaised": "Raised: $20000",
+        "exploreCampaigns": "Explore More Campaigns"
+    },
+    "callToAction": {
+        "savingSight": "Depuis 1990, nous sauvons la vue et changeons des vies à travers le monde",
+        "joinCommunity": "Rejoignez notre communauté de volontaires et aidez les personnes dans le besoin à travers le monde",
+        "ctaButtonJoin": "Rejoignez maintenant",
+        "contactUs": "Contactez-nous pour une évaluation de cas"
+    },
+    "callToAction1": {
+        "vision": "Notre vision",
+        "visionDescription": "Donner du pouvoir aux communautés grâce à des initiatives de développement durable, créant ainsi un avenir meilleur pour tous.",
+        "joinOurCause": "Rejoignez notre cause",
+        "joinOurCauseDescription": "Faites partie de notre mission visant à avoir un impact positif sur la vie des personnes dans le besoin."
+    },
+    "events": {
+        "upcomingEvents": "Événements à venir",
+        "discoverEvents": "Découvrez nos événements à venir",
+        "eventsDescription": "Les événements caritatifs à venir sont une excellente occasion de soutenir une bonne cause et d'avoir un impact positif dans votre communauté. Avant de participer à un événement, il est important de comprendre son but et l'association caritative qu'il soutient.",
+        "event1Title": "Marche annuelle de bienfaisance pour les enfants",
+        "event1Description": "Le 22 avril, rejoignez-nous pour notre marche annuelle afin de collecter des fonds pour les enfants dans le besoin. L'événement se tiendra au Central Park et comprendra une marche de 5 km, de la musique live et des camions de restauration."
+    },
+    "faqSection": {
+        "title": "FAQ – Foire aux questions",
+        "description": "Comme vous pouvez l'imaginer, les agents immobiliers reçoivent de nombreuses questions chaque jour. Les gens sont naturellement curieux, et c'est le rôle de l'agent de les guider.",
+        "questions": [
+            {
+                "question": "Qu'est-ce qu'une organisation caritative ?",
+                "answer": "Une organisation caritative est une organisation à but non lucratif qui vise à aider les personnes, les animaux ou l'environnement en fournissant diverses formes d'aide ou de soutien."
+            },
+            {
+                "question": "Quels types de services les organisations caritatives proposent-elles ?",
+                "answer": "Une organisation caritative est une organisation à but non lucratif qui vise à aider les personnes, les animaux ou l'environnement en fournissant diverses formes d'aide ou de soutien."
+            },
+            {
+                "question": "Comment puis-je faire un don à une organisation caritative ?",
+                "answer": "Une organisation caritative est une organisation à but non lucratif qui vise à aider les personnes, les animaux ou l'environnement en fournissant diverses formes d'aide ou de soutien."
+            },
+            {
+                "question": "Puis-je être bénévole pour une organisation caritative ?",
+                "answer": "Une organisation caritative est une organisation à but non lucratif qui vise à aider les personnes, les animaux ou l'environnement en fournissant diverses formes d'aide ou de soutien."
+            }
+        ]
+    },
+    "faqSection1": {
+        "faqTitle": "FAQ – Questions fréquemment posées",
+        "faqs": [
+            {
+                "question": "Quelle est la mission de votre organisation?",
+                "answer": "Notre mission est d'avoir un impact positif sur la société en soutenant et aidant les personnes dans le besoin à travers diverses activités et initiatives caritatives."
+            },
+            {
+                "question": "Comment puis-je faire un don à votre organisation?",
+                "answer": "Vous pouvez faire un don à notre organisation en visitant notre page 'Faire un don' sur notre site Web. Nous acceptons les dons ponctuels ainsi que les dons récurrents."
+            },
+            {
+                "question": "Mes dons sont-ils déductibles d'impôts?",
+                "answer": "Oui, vos dons sont déductibles d'impôts. Nous fournirons un reçu fiscal pour tous les dons que vous ferez à notre organisation."
+            },
+            {
+                "question": "Puis-je être bénévole pour votre organisation?",
+                "answer": "Oui, nous accueillons favorablement les bénévoles passionnés par notre cause. Visitez notre page 'Bénévolat' pour en savoir plus sur comment vous pouvez vous impliquer."
+            }
+        ]
+    },
+    "successStoriesSection": {
+        "successStoriesTitle": "Nos histoires à succès",
+        "latestNewsTitle": "Dernières nouvelles et articles du blog",
+        "categories": {
+            "food": {
+                "title": "Alimentation",
+                "content": {
+                    "heading": "Comment vos dons font une différence dans la vie des enfants",
+                    "description": "Les organisations caritatives jouent un rôle crucial dans la création d'un monde meilleur. Leurs efforts contribuent à avoir un impact positif dans la vie des personnes moins fortunées."
+                }
+            },
+            "education": {
+                "title": "Éducation",
+                "content": {
+                    "heading": "Faites un don aujourd'hui pour changer la vie des enfants grâce à l'éducation",
+                    "description": "Les organisations caritatives jouent un rôle crucial dans la création d'un monde meilleur. Leurs efforts contribuent à avoir un impact positif dans la vie des personnes moins fortunées."
+                }
+            },
+            "medicine": {
+                "title": "Médecine",
+                "content": {
+                    "heading": "Donnez de l'espoir. Aidez les enfants. Faites un don pour le traitement médical aujourd'hui",
+                    "description": "Les organisations caritatives jouent un rôle crucial dans la création d'un monde meilleur. Leurs efforts contribuent à avoir un impact positif dans la vie des personnes moins fortunées."
+                }
+            }
+        },
+        "browseAll": "Parcourir tout"
+    },
+    "successStoriesSection1": {
+        "successStoriesTitle": "Nos Réussites Impactantes",
+        "latestNewsTitle": "Découvrez les Dernières Actualités et Articles de notre Blog",
+        "categories": {
+            "food": {
+                "title": "Alimentation",
+                "content": {
+                    "heading": "Comment Vos Dons Transforment la Vie des Enfants",
+                    "description": "Les organisations caritatives jouent un rôle vital dans la création d'un monde meilleur. Leurs efforts contribuent à avoir un impact positif dans la vie des personnes moins fortunées."
+                }
+            },
+            "education": {
+                "title": "Éducation",
+                "content": {
+                    "heading": "Faites un Don Aujourd'hui pour Façonner l'Avenir des Enfants grâce à l'Éducation",
+                    "description": "Les organisations caritatives jouent un rôle crucial dans la création d'un monde meilleur. Leurs efforts contribuent à avoir un impact positif dans la vie des personnes moins fortunées."
+                }
+            },
+            "medicine": {
+                "title": "Médecine",
+                "content": {
+                    "heading": "Donnez de l'Espoir. Aidez les Enfants. Faites un Don pour le Traitement Médical Aujourd'hui",
+                    "description": "Les organisations caritatives jouent un rôle crucial dans la création d'un monde meilleur. Leurs efforts contribuent à avoir un impact positif dans la vie des personnes moins fortunées."
+                }
+            }
+        },
+        "browseAll": "Parcourir Tout"
+    },
+    "footer": {
+        "donateText": "Faites un don et aidez les personnes du monde entier",
+        "navigationTitle": "Navigation",
+        "navigationLinks": {
+            "faq": "FAQ",
+            "aboutUs": "À propos de nous",
+            "contactUs": "Contactez-nous",
+            "donate": "Faire un don",
+            "joinCommunity": "Rejoignez notre communauté",
+            "events": "Événements"
+        },
+        "stayConnectedTitle": "Restez connecté",
+        "stayConnectedDescription": "Pour vous assurer de recevoir toutes les dernières nouvelles et mises à jour de notre organisation, nous vous invitons à vous abonner à notre liste de diffusion",
+        "subscribePlaceholder": "Adresse e-mail",
+        "subscribeButton": "S'abonner",
+        "quote": "Chez Watsappcisko, nous nous engageons à avoir un impact positif dans la vie de ceux que nous servons. Nous croyons que chaque individu a le pouvoir de créer une société.",
+        "copyrightText": "© Watsappcisko.com 2023. Tous droits réservés.",
+        "footerTermsLinks": {
+            "termsOfUse": "Conditions d'utilisation",
+            "termsAndPrivacy": "Conditions et confidentialité"
+        }
+    },
+    "seo": {
+        "siteTitle": "WhatsApp Cisko - Connecter les communautés, autonomiser les vies | Technologie au service du bien social",
+        "siteDescription": "Rejoignez WhatsApp Cisko pour connecter les communautés et avoir un impact positif sur les vies grâce à la technologie. Autonomisation des vies et création de bien social."
+    }
+}

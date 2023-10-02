@@ -1,19 +1,61 @@
 "use client";
 import Image from "next/image";
 import Link from "next/link";
-import { useState } from "react";
+import { FC, useEffect, useState } from "react";
+import LocaleSwitcher from "../../components/locale-switcher";
+import useDictionnaries from "@/modules/hooks/useDictionnaries";
 
-const Header = () => {
+interface HeaderProps {
+  dictionary: {
+    header: {
+      home: string;
+      aboutUs: string;
+      events: string;
+      volunteer: string;
+      donateNow: string;
+      campaign: string;
+      contact: string;
+      contactUs: string;
+    };
+    heroSection: {
+      topTitle: string;
+      mainTitle: string;
+      paragraph: string;
+      donateButton: string;
+    };
+  };
+}
+const Header: FC<HeaderProps> = ({ dictionary }) => {
   const [active, setActive] = useState(false);
+  const { setdictionnaries } = useDictionnaries();
+  const {
+    header: {
+      home,
+      aboutUs,
+      campaign,
+      contact,
+      donateNow,
+      events,
+      volunteer,
+      contactUs,
+    },
+  } = dictionary;
+
+  useEffect(() => {
+    if (dictionary) {
+      setdictionnaries(dictionary);
+    }
+  }, [dictionary]);
+
   return (
     <header className="hoperaiser-header" id="sticky-header">
       <div className="container">
         <div className="row d-flex align-items-center">
-          <div className="col-lg-2">
+          <div className="col-lg-2 lg:!tw-w-[12%]">
             <div className="mobile-flex">
               <div className="hoperaiser-logo">
                 <Link
-                  className="tw-relative tw-inline-block tw-w-[124px] tw-h-[34px]"
+                  className="tw-relative tw-inline-block tw-w-[124px] tw-h-[49px]"
                   href="/"
                 >
                   <Image
@@ -46,7 +88,7 @@ const Header = () => {
               </div>
             </div>
           </div>
-          <div className="col-lg-5">
+          <div className="col-lg-7">
             <div
               className={`tw-bg-black/30 tw-fixed tw-top-0 tw-bottom-0 tw-right-0 tw-left-0 z-1 ${
                 active ? "tw-block" : "tw-hidden"
@@ -74,7 +116,7 @@ const Header = () => {
                   />
                 </svg>
               </div>
-              <div className="mobile-search">
+              {/* <div className="mobile-search">
                 <div className="hoperaiser-serach">
                   <form action="#">
                     <input type="search" placeholder="Search Here..." />
@@ -96,129 +138,45 @@ const Header = () => {
                     </button>
                   </form>
                 </div>
-              </div>
+              </div> */}
               <nav>
-                <ul>
+                <ul className="tw-m-0 tw-p-0 tw-flex tw-flex-col lg:tw-flex-row tw-justify-center">
                   <li className="active">
                     <a href="#" className="sub-btn">
-                      Home
+                      {home}
                     </a>
-                    <ul className="submenu">
-                      <li>
-                        <a href="index.html">Home V1</a>
-                      </li>
-                      <li>
-                        <a href="home-v2.html">Home V2</a>
-                      </li>
-                      <li>
-                        <a href="home-v3.html">Home V3</a>
-                      </li>
-                    </ul>
                   </li>
                   <li>
-                    <a href="about-us.html">About Us</a>
+                    <a href="#">{aboutUs}</a>
                   </li>
                   <li>
                     <a href="#" className="sub-btn">
-                      Events
+                      {events}
                     </a>
-                    <ul className="submenu">
-                      <li>
-                        <a href="events.html">Events</a>
-                      </li>
-                      <li>
-                        <a href="events-v2.html">Events V2</a>
-                      </li>
-                      <li>
-                        <a href="events-v3.html">Events V3</a>
-                      </li>
-                      <li>
-                        <a href="events-details.html">Events Details</a>
-                      </li>
-                    </ul>
                   </li>
                   <li>
                     <a href="#" className="sub-btn">
-                      Pages
+                      {campaign}
                     </a>
-                    <ul className="submenu">
-                      <li>
-                        <a href="our-team.html">Our Team</a>
-                      </li>
-                      <li>
-                        <a href="our-team-v2.html">Our Team V2</a>
-                      </li>
-                      <li>
-                        <a href="team-member-details.html">
-                          Team Member Details
-                        </a>
-                      </li>
-                      <li>
-                        <a href="become-volunteer.html">Become Volunteer</a>
-                      </li>
-                      <li>
-                        <a href="gallery.html">Gallery</a>
-                      </li>
-                      <li>
-                        <a href="faqs.html">Faqs</a>
-                      </li>
-                      <li>
-                        <a href="campaign.html">Campaign</a>
-                      </li>
-                      <li>
-                        <a href="campaign-v2.html">Campaign V2</a>
-                      </li>
-                      <li>
-                        <a href="donation-details.html">Donation Details</a>
-                      </li>
-                      <li>
-                        <a href="donate-now.html">Donate now</a>
-                      </li>
-                      <li>
-                        <a href="blog.html">Blog</a>
-                      </li>
-                      <li>
-                        <a href="blog-right-sidebar.html">Blog Right Sidebar</a>
-                      </li>
-                      <li>
-                        <a href="blog-left-sidebar.html">Blog left sidebar</a>
-                      </li>
-                      <li>
-                        <a href="blog-full-width.html">Blog full width</a>
-                      </li>
-                      <li>
-                        <a href="blog-details.html">Blog Details</a>
-                      </li>
-                      <li>
-                        <a href="singn-up.html">Sign up</a>
-                      </li>
-                      <li>
-                        <a href="singn-in.html">Sign In</a>
-                      </li>
-                      <li>
-                        <a href="my-account.html">My Account</a>
-                      </li>
-                      <li>
-                        <a href="error.html">Error</a>
-                      </li>
-                    </ul>
                   </li>
                   <li>
-                    <a href="#">Contact</a>
-                    <ul className="submenu">
-                      <li>
-                        <a href="contact-us-v1.html">Contact Us</a>
-                      </li>
-                      <li>
-                        <a href="contact-us-v2.html">Contact Us V2</a>
-                      </li>
-                    </ul>
+                    <a href="#" className="sub-btn">
+                      {volunteer}
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" className="sub-btn">
+                      {donateNow}
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">{contact}</a>
                   </li>
                 </ul>
               </nav>
               <div className="mobile-user-contact-top">
                 <div className="hoperaiser-top-user">
-                  <a href="my-account.html">
+                  <a href="#">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       fill="none"
@@ -237,16 +195,19 @@ const Header = () => {
                 </div>
                 <div className="hoperaiser-top-contact">
                   <p>
-                    <span>Contact Us</span> <br />
+                    <span>{contactUs}</span> <br />
                     <a href="tel:+914346548765">+91 434 654 8765</a>
                   </p>
                 </div>
               </div>
+              <div className="mobile-user-contact-top tw-min-h-[59px] tw-w-full tw-mt-5 tw-relative">
+                <LocaleSwitcher />
+              </div>
             </div>
           </div>
-          <div className="col-lg-5">
+          <div className="col-lg-3">
             <div className="hoperaiser-menu-right">
-              <div className="hoperaiser-serach">
+              {/* <div className="hoperaiser-serach">
                 <form action="#">
                   <input type="search" placeholder="Search Here..." />
                   <button type="button">
@@ -266,9 +227,9 @@ const Header = () => {
                     </svg>
                   </button>
                 </form>
-              </div>
-              <div className="hoperaiser-top-user">
-                <a href="my-account.html">
+              </div> */}
+              <div className="hoperaiser-top-user tw-py-9">
+                <a href="#">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
@@ -285,11 +246,14 @@ const Header = () => {
                   </svg>
                 </a>
               </div>
-              <div className="hoperaiser-top-contact">
+              <div className="hoperaiser-top-contact ">
                 <p>
-                  <span>Contact Us</span> <br />
-                  <a href="tel:+914346548765">+91 434 654 8765</a>
+                  <span>{contactUs}</span> <br />
+                  <a href="tel:+2217758867968">(+221) 77 586 79 68</a>
                 </p>
+              </div>
+              <div className="tw-pl-11 tw-h-11 tw-relative">
+                <LocaleSwitcher />
               </div>
             </div>
           </div>
