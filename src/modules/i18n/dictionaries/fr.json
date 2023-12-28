@@ -11,8 +11,8 @@
     },
     "heroSection": {
         "topTitle": "Soutenez notre cause",
-        "mainTitle": "Faisons une différence ensemble",
-        "paragraph": "Rejoignez-nous pour créer un avenir où chaque vie est valorisée en soutenant nos initiatives en matière d'éducation, de santé et de subsistance.",
+        "mainTitle": "Projet WATSAP : Créons un avenir durable",
+        "paragraph": "Rejoignez-nous pour restaurer l'environnement, promouvoir les énergies renouvelables, créer des emplois locaux et développer des communautés durables.",
         "donateButton": "Faites un don"
     },
     "impactStatements": {
@@ -157,8 +157,7 @@
     "faqSection": {
         "title": "FAQ – Foire aux questions",
         "description": "Comme vous pouvez l'imaginer, les agents immobiliers reçoivent de nombreuses questions chaque jour. Les gens sont naturellement curieux, et c'est le rôle de l'agent de les guider.",
-        "questions": [
-            {
+        "questions": [{
                 "question": "Qu'est-ce qu'une organisation caritative ?",
                 "answer": "Une organisation caritative est une organisation à but non lucratif qui vise à aider les personnes, les animaux ou l'environnement en fournissant diverses formes d'aide ou de soutien."
             },
@@ -178,8 +177,7 @@
     },
     "faqSection1": {
         "faqTitle": "FAQ – Questions fréquemment posées",
-        "faqs": [
-            {
+        "faqs": [{
                 "question": "Quelle est la mission de votre organisation?",
                 "answer": "Notre mission est d'avoir un impact positif sur la société en soutenant et aidant les personnes dans le besoin à travers diverses activités et initiatives caritatives."
             },

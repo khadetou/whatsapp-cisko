@@ -10,10 +10,10 @@
         "contactUs": "Contact Us"
     },
     "heroSection": {
-        "topTitle": "Support Our Cause",
-        "mainTitle": "Make a Difference Together",
-        "paragraph": "Join us in creating a future where every life is valued by supporting our education, healthcare, and livelihood initiatives.",
-        "donateButton": "Donate Now"
+        "topTitle": "Support our cause",
+        "mainTitle": "WATSAP Project: Let's create a sustainable future",
+        "paragraph": "Join us to restore the environment, promote renewable energy, create local jobs, and develop sustainable communities.",
+        "donateButton": "Make a donation"
     },
     "impactStatements": {
         "brighterTomorrow": "Brighter  Tomorrow",
@@ -157,8 +157,7 @@
     "faqSection": {
         "title": "FAQ’s – Frequently Asked Questions",
         "description": "As you might imagine, real estate agents field quite a few questions every day. People are naturally curious, and it’s an agent’s job to guide.",
-        "questions": [
-            {
+        "questions": [{
                 "question": "What is a charity organization?",
                 "answer": "A charity organization is a non-profit organization that aims to help people, animals, or the environment by providing various forms of assistance or support."
             },
@@ -178,8 +177,7 @@
     },
     "faqSection1": {
         "faqTitle": "FAQs – Frequently Asked Questions",
-        "faqs": [
-            {
+        "faqs": [{
                 "question": "What is the mission of your organization?",
                 "answer": "Our mission is to make a positive impact on society by supporting and assisting those in need through various charitable activities and initiatives."
             },

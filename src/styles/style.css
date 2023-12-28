@@ -623,7 +623,7 @@ ul {
     Hero CSS
 =================== */
 .hero {
-  background-image: url(/images/home/hero.png);
+  background-image: url(/images/home/hero.jpg);
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
