@@ -62,7 +62,7 @@ const OurObject: FC<OurObjectProps> = ({
                         />
                       </div>
                       <h3>
-                        <span className="counter">10000</span>+
+                        <span className="counter">3</span>+
                       </h3>
                       <p>{fundraising}</p>
                     </div>
@@ -83,7 +83,7 @@ const OurObject: FC<OurObjectProps> = ({
                         />
                       </div>
                       <h3>
-                        $<span className="counter">120</span>M+
+                        $<span className="counter">0</span>M+
                       </h3>
                       <p>{donations}</p>
                     </div>
@@ -104,7 +104,7 @@ const OurObject: FC<OurObjectProps> = ({
                         />
                       </div>
                       <h3>
-                        <span className="counter">1200</span>+
+                        <span className="counter">3</span>+
                       </h3>
                       <p>{volunteers}</p>
                     </div>
