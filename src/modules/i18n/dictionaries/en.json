@@ -279,5 +279,28 @@
     "seo": {
         "siteTitle": "Watsap Cisko - Connecting Communities, Empowering Lives | Technology for Social Good",
         "siteDescription": "Join Watsap Cisko to connect communities and make a positive impact on lives through technology. Empowering lives and creating social good."
+    },
+
+    "About": {
+        "title": "About Us",
+        "link": {
+            "acceuil": "Home",
+            "about": "About Us"
+        },
+        "aboutUs": {
+            "subtitle": "About Us",
+            "title": "Empowering Change",
+            "description": "Watsap Cisko is committed to making a positive impact through environmental and humanitarian projects. Our mission is to promote sustainability, education, and health to build resilient communities.",
+            "discoverMore": "Discover More",
+            "energy": "Renewable Energy",
+            "villages": "Creating Autonomous Villages",
+            "donate": "Become a Member",
+            "volunteer": "Volunteer"
+        },
+        "showcase": {
+            "sentence1": "Watsap Cisko, through reforestation, contributes to environmental sustainability.",
+            "sentence2": "Watsap Cisko supports education and health for communities worldwide."
+        }
+
     }
 }

@@ -279,5 +279,27 @@
     "seo": {
         "siteTitle": "Watsap Cisko - Connecter les communautés, autonomiser les vies | Technologie au service du bien social",
         "siteDescription": "Rejoignez Watsap Cisko pour connecter les communautés et avoir un impact positif sur les vies grâce à la technologie. Autonomisation des vies et création de bien social."
+    },
+    "About": {
+        "title": "À propos",
+        "link": {
+            "acceuil": "Accueil",
+            "about": "À propos"
+        },
+        "aboutUs": {
+            "title": "Donner du pouvoir au changement",
+            "subtitle": "À propos de nous",
+            "description": "Watsap Cisko s'engage à créer un impact positif en mettant en œuvre des projets environnementaux et humanitaires. Notre mission est de promouvoir la durabilité, l'éducation et la santé pour bâtir des communautés résilientes.",
+            "discoverMore": "En savoir plus",
+            "energy": "Énergie Renouvelable",
+            "villages": "Création de Villages Autonomes",
+            "donate": "Devenir membre",
+            "volunteer": "Bénévolat"
+        },
+        "showcase": {
+            "sentence1": "Watsap Cisko, à travers le reboisement, contribue à la durabilité environnementale.",
+            "sentence2": "Watsap Cisko soutient l'éducation et la santé des communautés à travers le monde."
+        }
+
     }
 }

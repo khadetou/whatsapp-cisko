@@ -40,8 +40,10 @@ const Faq: FC<FaqProps> = ({
               data-aos-duration="500"
               data-aos-easing="linear"
             >
-              <h2>{title}</h2>
-              <p className="tw-max-w-[720px] tw-mx-auto">{description}</p>
+              <h2 className="!tw-text-white">{title}</h2>
+              <p className="tw-max-w-[720px] !tw-text-white tw-mx-auto">
+                {description}
+              </p>
             </div>
           </div>
         </div>

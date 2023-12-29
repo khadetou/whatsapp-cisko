@@ -1193,7 +1193,7 @@ ul {
   font-size: 20px;
   font-weight: 400;
   line-height: normal;
-  color: #eee;
+  color: #664218;
   text-transform: uppercase;
   margin-bottom: 6px;
   letter-spacing: 1px;
@@ -1201,7 +1201,7 @@ ul {
 
 .heading-common h2 {
   font-size: 48px;
-  color: #fff;
+  color: #181d1a;
   font-weight: 600;
   line-height: normal;
   margin-bottom: 14px;
@@ -1209,7 +1209,7 @@ ul {
 
 .heading-common p {
   font-size: 16px;
-  color: #fff;
+  color: #444b47;
   line-height: 26px;
   font-weight: 400;
   margin-bottom: 0;
@@ -3000,7 +3000,7 @@ ul {
 ========================= */
 
 .video-v2-here {
-  background-image: url(/images/home/home-v2-video.png);
+  background-image: url(/images/about-us/cultiver.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -3037,7 +3037,7 @@ ul {
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
-  background-color: #eeaa21;
+  background-color: #199246;
   border-radius: 50%;
   -webkit-transition: all 0.4s ease-in-out;
   -o-transition: all 0.4s ease-in-out;
@@ -3051,7 +3051,7 @@ ul {
 
 .video-v2-here a:hover,
 .hero-video-v3 a:hover {
-  background-color: #1eca8c;
+  background-color: #664218;
 }
 
 .video-v2 {
@@ -3067,7 +3067,7 @@ ul {
   left: 0;
   width: 100%;
   height: 20%;
-  background-color: #e8faf3;
+  background-color: #fff;
   z-index: -1;
 }
 
@@ -3076,7 +3076,7 @@ ul {
 ========================= */
 
 .object-v2 {
-  background-color: #e8faf3;
+  background-color: #fff;
   padding-top: 65px;
   padding-bottom: 15px;
 }
@@ -4092,7 +4092,7 @@ ul {
 ========================= */
 
 .showcase-v3 {
-  background-color: #fdf6e9;
+  background-color: #664218;
   padding-top: 120px;
   padding-bottom: 248px;
   position: relative;
@@ -4728,7 +4728,7 @@ ul {
     Breadcrumb CSS
 =================== */
 .breadcrumb {
-  background-image: url(/images/about-us/breadcrumb.png);
+  background-image: url(/images/about-us/cta.jpg);
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -4786,7 +4786,7 @@ ul {
 }
 
 .breadcrumb-wrap p span {
-  color: #eeaa21;
+  color: #664218;
   -webkit-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;

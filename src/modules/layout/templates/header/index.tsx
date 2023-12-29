@@ -4,6 +4,7 @@ import Link from "next/link";
 import { FC, useEffect, useState } from "react";
 import LocaleSwitcher from "../../components/locale-switcher";
 import useDictionnaries from "@/modules/hooks/useDictionnaries";
+import { usePathname } from "next/navigation";
 
 interface HeaderProps {
   dictionary: {
@@ -28,6 +29,7 @@ interface HeaderProps {
 const Header: FC<HeaderProps> = ({ dictionary }) => {
   const [active, setActive] = useState(false);
   const { setdictionnaries } = useDictionnaries();
+  const pathname = usePathname();
   const {
     header: {
       home,
@@ -141,13 +143,21 @@ const Header: FC<HeaderProps> = ({ dictionary }) => {
               </div> */}
               <nav>
                 <ul className="tw-m-0 tw-p-0 tw-flex tw-flex-col lg:tw-flex-row tw-justify-center">
-                  <li className="active">
-                    <a href="#" className="sub-btn">
+                  <li
+                    className={
+                      pathname === "/en" ||
+                      pathname === "/fr" ||
+                      pathname === "/"
+                        ? "active"
+                        : ""
+                    }
+                  >
+                    <Link href="/" className="sub-btn">
                       {home}
-                    </a>
+                    </Link>
                   </li>
-                  <li>
-                    <a href="#">{aboutUs}</a>
+                  <li className={pathname.endsWith("/about") ? "active" : ""}>
+                    <Link href="/about">{aboutUs}</Link>
                   </li>
                   <li>
                     <a href="#" className="sub-btn">

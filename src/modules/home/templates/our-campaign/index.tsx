@@ -67,9 +67,11 @@ const OurCampaign: FC<OurCampaignProps> = ({
               data-aos="fade-up"
               data-aos-easing="linear"
             >
-              <h3>{helpOthersTitle}</h3>
-              <h2>{introduceCampaignTitle}</h2>
-              <p className="max-w-[564px] mx-auto">{introduceCampaignText}</p>
+              <h3 className="!tw-text-white">{helpOthersTitle}</h3>
+              <h2 className="!tw-text-white">{introduceCampaignTitle}</h2>
+              <p className="max-w-[564px] !tw-text-white mx-auto">
+                {introduceCampaignText}
+              </p>
             </div>
           </div>
         </div>
