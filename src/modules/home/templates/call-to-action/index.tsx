@@ -56,7 +56,10 @@ const CallToAction: FC<CallToActionProps> = ({
               data-aos-easing="linear"
             >
               <h3>{contactUs}</h3>
-              <a href="tel:+6549685234">
+              <a
+                className="tw-flex tw-justify-between tw-items-center"
+                href="tel:+6549685234"
+              >
                 <span>
                   <Image
                     width={48}
@@ -65,7 +68,7 @@ const CallToAction: FC<CallToActionProps> = ({
                     alt=""
                   />
                 </span>
-                (+221) 77 586 79 68
+                (+221) 77 215 37 04
               </a>
             </div>
           </div>

@@ -148,13 +148,12 @@ const OurObject: FC<OurObjectProps> = ({
                   data-aos="zoom-in-up"
                   data-aos-easing="linear"
                   data-aos-duration="1000"
-                  src="/images/home/object01.png"
+                  src="/images/home/object01.jpeg"
                   className="!tw-inline"
                   alt=""
                   width={433}
                   height={519}
                 />
-
                 <div
                   className="object-video-shot"
                   data-aos="zoom-in"
@@ -162,7 +161,7 @@ const OurObject: FC<OurObjectProps> = ({
                   data-aos-duration="1000"
                 >
                   <Image
-                    src="/images/home/object-video-prev.png"
+                    src="/images/home/video-prev.png"
                     width={300}
                     height={312}
                     alt=""

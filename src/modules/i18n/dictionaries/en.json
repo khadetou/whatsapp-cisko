@@ -24,26 +24,26 @@
     },
     "supportingCauses": {
         "kidsEducation": {
-            "title": "Kids Education",
-            "description": "Our mission is to ensure that every child has access to healthy, nutritious meals regardless of their socio-economic status.",
+            "title": "Children's Education",
+            "description": "We are committed to promoting children's education, with a focus on combating illiteracy and promoting the education of young girls. Our goal is to establish preschools, Quranic schools, and provide catechism classes for Christians.",
             "link": {
-                "text": "Know more",
+                "text": "Learn more",
                 "icon": "arrow-right"
             }
         },
         "healthyFood": {
-            "title": "Healthy Food",
-            "description": "Our mission is to ensure that every child has access to healthy, nutritious meals regardless of their socio-economic status.",
+            "title": "Environmental Conservation",
+            "description": "We are committed to promoting reforestation and environmental preservation. By developing projects focused on tree planting and ecosystem conservation, we contribute to ecological sustainability and the preservation of biodiversity.",
             "link": {
-                "text": "Know more",
+                "text": "Learn more",
                 "icon": "arrow-right"
             }
         },
         "treatment": {
-            "title": "Treatment",
-            "description": "Our mission is to ensure that every child has access to healthy, nutritious meals regardless of their socio-economic status.",
+            "title": "Healthcare",
+            "description": "We are committed to raising awareness about drug addiction and preventing drug abuse through education. Our aim is to provide appropriate treatments to ensure the mental and physical health of individuals, in partnership with organizations such as JUVENTEE and BACK TO AFRICA.",
             "link": {
-                "text": "Know more",
+                "text": "Learn more",
                 "icon": "arrow-right"
             }
         }
@@ -75,78 +75,79 @@
         }
     },
     "objectives": {
-        "title": "Our objective is to aid the community",
-        "fundraising": "Fundraising campaign in all time",
-        "donations": "Raised and counting donations in all time",
-        "volunteers": "Our volunteer around the world",
-        "reviews": "Positive review from public",
-        "belief": "Our organization truly believes that by working together, we can save more lives than ever before."
+        "title": "Economic patriotism through education",
+        "fundraising": "Fundraising campaign for sustainable development",
+        "donations": "Donations collected for community progress",
+        "volunteers": "Commitment of our volunteers worldwide",
+        "reviews": "Positive reviews from the public for our actions",
+        "belief": "Deep conviction: Together, we can build a better future."
     },
     "objectives1": {
-        "title": "Empowering Communities through Technology",
-        "initiatives": "Supporting innovative initiatives for social change",
-        "partnerships": "Fostering collaborations to drive sustainable impact",
-        "advocacy": "Promoting digital literacy and inclusive technology access",
-        "belief": "We believe in utilizing technology for positive community transformation."
+        "title": "Success of clean renewable energies",
+        "initiatives": "Supporting innovative projects for positive social change",
+        "partnerships": "Establishing collaborations for sustainable impact",
+        "advocacy": "Promoting digital literacy and equitable access to technology",
+        "belief": "Using technology for a positive community transformation"
     },
     "campaigns": {
         "helpOthersTitle": "Help Others",
-        "introduceCampaignTitle": "Introduce Our Campaign",
-        "introduceCampaignText": "How to do something great to help others. We try our best to help helpless people. See our progress in numbers.",
-        "booksCampaignTitle": "Campaign to provide books for children",
-        "booksCampaignText": "We focus on child education, which is critical in ensuring that children have access to quality education and the opportunity to reach their full potential.",
-        "booksCampaignGoals": "Goals: $25000",
-        "booksCampaignRaised": "Raised: $21000",
-        "foodTitle": "Food",
-        "foodCampaignTitle": "Every child needs healthy foods",
-        "foodCampaignText": "We focus on child education, which is critical in ensuring that children have access to quality education and the opportunity to reach their full potential.",
-        "foodCampaignGoals": "Goals: $35000",
-        "foodCampaignRaised": "Raised: $25000",
-        "healthTitle": "Health",
-        "healthCampaignTitle": "Treatment for every helpless child",
-        "healthCampaignText": "We focus on child education, which is critical in ensuring that children have access to quality education and the opportunity to reach their full potential.",
-        "healthCampaignGoals": "Goals: $30000",
-        "healthCampaignRaised": "Raised: $28000",
+        "introduceCampaignTitle": "Present Our Campaign",
+        "introduceCampaignText": "How to do something great to help others. We are doing our best to assist the less fortunate. Explore our progress in numbers.",
+        "booksCampaignTitle": "Campaign to Provide Books to Children",
+        "booksCampaignText": "We focus on children's education, crucial to ensuring they have access to quality education and the opportunity to realize their full potential.",
+        "booksCampaignGoals": "Goals: $25,000",
+        "booksCampaignRaised": "Raised: $0",
+        "foodTitle": "Sustainability",
+        "foodCampaignTitle": "Environmental Sustainability",
+        "foodCampaignText": "Our commitment to environmental sustainability involves reforestation and adopting eco-friendly practices. Explore our progress and join us in creating a greener future.",
+        "foodCampaignGoals": "Goals: $50000",
+        "foodCampaignRaised": "Raised: $0",
+        "healthTitle": "ÉcoVillage",
+        "healthCampaignTitle": "Building a Self-Sustaining Village",
+        "healthCampaignText": "Contribute to the establishment of a self-sustaining village, providing housing, infrastructure, local training, and employment opportunities.",
+        "healthCampaignGoals": "Goals: $250,000",
+        "healthCampaignRaised": "Raised: $0",
         "educationTitle": "Education",
-        "educationCampaignTitle": "Support children's education for a brighter future",
-        "educationCampaignText": "Education is the cornerstone of a better future. Help us provide quality education to children in need, giving them hope and opportunities.",
-        "educationCampaignGoals": "Goals: $40000",
-        "educationCampaignRaised": "Raised : $32000",
-        "btnDonate": "Donate",
+        "educationCampaignTitle": "Support Children's Education for a Better Future",
+        "educationCampaignText": "Education is the foundation of a better future. Help us provide quality education to children in need, offering them hope and opportunities.",
+        "educationCampaignGoals": "Goals: $40,000",
+        "educationCampaignRaised": "Raised: $0",
+        "btnDonate": "Donate Now",
         "btnBrowseAll": "Browse All"
     },
-    "campaings1": {
+    "campaigns1": {
         "supportingCommunities": "Supporting Communities",
         "empoweringLives": "Empowering Lives, Together",
         "empoweringLivesDescription": "Join us in our mission to uplift communities and provide them with essential resources for a better tomorrow.",
         "cleanWaterCampaign": "Campaign for Clean Water",
         "cleanWaterDescription": "Access to clean and safe water is a fundamental human right. Our campaign focuses on ensuring communities have this basic necessity for a healthier and happier life.",
-        "cleanWaterGoal": "Goal: $20000",
-        "cleanWaterRaised": "Raised: $15000",
+        "cleanWaterGoal": "Goal: $20,000",
+        "cleanWaterRaised": "Raised: $0",
         "educationalSupport": "Educational Support",
         "enablingEducation": "Enabling Education for All",
         "educationDescription": "Education is the key to a brighter future. We aim to support educational initiatives that empower every child to reach their full potential.",
-        "educationGoal": "Goal: $30000",
-        "educationRaised": "Raised: $25000",
+        "educationGoal": "Goal: $30,000",
+        "educationRaised": "Raised: $0",
         "healthcare": "Healthcare",
         "improvingHealth": "Improving Health, Saving Lives",
         "healthcareDescription": "Accessible healthcare is crucial for a community's well-being. Help us make quality healthcare services accessible to those in need.",
-        "healthcareGoal": "Goal: $25000",
-        "healthcareRaised": "Raised: $20000",
+        "healthcareGoal": "Goal: $25,000",
+        "healthcareRaised": "Raised: $0",
         "exploreCampaigns": "Explore More Campaigns"
     },
     "callToAction": {
-        "savingSight": "Since 1990, we’ve been saving sight and changing lives around the world",
-        "joinCommunity": "Join our community to volunteer and help people in need around the world",
+        "savingSight": "Contribute to environmental preservation by participating in our project",
+        "joinCommunity": "Join our committed community to make a positive impact in the world",
         "ctaButtonJoin": "Join Now",
-        "contactUs": "Contact us for a case evaluation"
+        "contactUs": "Contact us for a case assessment"
     },
     "callToAction1": {
         "vision": "Our Vision",
-        "visionDescription": "Empowering communities through sustainable development initiatives, creating a brighter future for all.",
-        "joinOurCause": "Join Our Cause",
-        "joinOurCauseDescription": "Become a part of our mission to make a positive impact on the lives of people in need."
+        "visionDescription": "Explore our vision for a better future.",
+        "joinOurCause": "Join our cause",
+        "joinOurCauseDescription": "Discover how you can contribute to our cause."
     },
+
     "events": {
         "upcomingEvents": "Upcoming Events",
         "discoverEvents": "Discover our upcoming Events",
@@ -154,47 +155,49 @@
         "event1Title": "Annual Charity Walk for Kids",
         "event1Description": "On April 22nd, join us for our annual walk to raise money for Helpless kids. The event will take place at Central Park and will include a 5k walk, live music, and food trucks."
     },
+
     "faqSection": {
-        "title": "FAQ’s – Frequently Asked Questions",
-        "description": "As you might imagine, real estate agents field quite a few questions every day. People are naturally curious, and it’s an agent’s job to guide.",
+        "title": "Frequently Asked Questions",
+        "description": "Explore commonly asked questions about WATSAP CISKO and our initiatives.",
         "questions": [{
-                "question": "What is a charity organization?",
-                "answer": "A charity organization is a non-profit organization that aims to help people, animals, or the environment by providing various forms of assistance or support."
+                "question": "What is WATSAP CISKO?",
+                "answer": "WATSAP CISKO is a comprehensive project focused on environmental sustainability, reforestation, and the creation of autonomous villages. It aims to combat climate change and environmental degradation while improving the lives of local communities."
             },
             {
-                "question": "What kinds of services do charity organizations offer?",
-                "answer": "A charity organization is a non-profit organization that aims to help people, animals, or the environment by providing various forms of assistance or support."
+                "question": "What are the main goals of the WATSAP CISKO project?",
+                "answer": "The main goals of the WATSAP CISKO project include reforestation, promoting renewable energy sources, and establishing autonomous villages. The project aims to create a sustainable and resilient environment while fostering community development."
             },
             {
-                "question": "How can I donate to a charity organization?",
-                "answer": "A charity organization is a non-profit organization that aims to help people, animals, or the environment by providing various forms of assistance or support."
+                "question": "How can I contribute to the WATSAP CISKO project?",
+                "answer": "You can contribute to the WATSAP CISKO project by making donations, participating in fundraising campaigns, or getting involved in community initiatives. Additionally, raising awareness about the project and its goals can also have a significant impact."
             },
             {
-                "question": "Can I volunteer for a charity organization?",
-                "answer": "A charity organization is a non-profit organization that aims to help people, animals, or the environment by providing various forms of assistance or support."
+                "question": "What are the available funding sources for the WATSAP project?",
+                "answer": "The WATSAP project can be funded by various sources, including grants, donations, investments, and loans. Government agencies, NGOs, businesses, and individuals are potential sources of financial support for the project."
             }
         ]
     },
     "faqSection1": {
-        "faqTitle": "FAQs – Frequently Asked Questions",
+        "faqTitle": "Community Engagement and Support",
         "faqs": [{
-                "question": "What is the mission of your organization?",
-                "answer": "Our mission is to make a positive impact on society by supporting and assisting those in need through various charitable activities and initiatives."
+                "question": "How can I join the WATSAP community?",
+                "answer": "You can join the WATSAP community by participating in community events, volunteering for project activities, or becoming a donor. Connect with us through our website or social media to stay informed and engaged."
             },
             {
-                "question": "How can I donate to your organization?",
-                "answer": "You can make a donation to our organization by visiting our 'Donate' page on our website. We accept both one-time and recurring donations."
+                "question": "What is the vision of WATSAP CISKO?",
+                "answer": "The vision of WATSAP CISKO is to create a sustainable and harmonious world where nature and humanity coexist. It envisions a future where environmental preservation and community well-being are at the forefront of global initiatives."
             },
             {
-                "question": "Are my donations tax-deductible?",
-                "answer": "Yes, your donations are tax-deductible. We will provide a tax receipt for all the donations you make to our organization."
+                "question": "How does WATSAP CISKO address environmental challenges?",
+                "answer": "WATSAP CISKO addresses environmental challenges through reforestation, renewable energy projects, and sustainable community development. By promoting environmentally friendly practices, the project aims to mitigate climate change and protect natural resources."
             },
             {
-                "question": "Can I volunteer for your organization?",
-                "answer": "Yes, we welcome volunteers who are passionate about our cause. Visit our 'Volunteer' page to find more information about how you can get involved."
+                "question": "Are there opportunities for community involvement in WATSAP CISKO?",
+                "answer": "Yes, WATSAP CISKO encourages community involvement at every stage. Local communities and stakeholders are actively involved in decision-making, project implementation, and ongoing initiatives, fostering a participatory and inclusive approach."
             }
         ]
     },
+
     "successStoriesSection": {
         "successStoriesTitle": "Our Success Stories",
         "latestNewsTitle": "Latest News and Articles from the Blog Posts",
@@ -252,7 +255,7 @@
         "browseAll": "Browse All"
     },
     "footer": {
-        "donateText": "Donate and help people around the world",
+        "donateText": "Support our mission for a positive impact. Join us in creating a greener future for all.",
         "navigationTitle": "Navigation",
         "navigationLinks": {
             "faq": "FAQ",
@@ -274,7 +277,7 @@
         }
     },
     "seo": {
-        "siteTitle": "WhatsApp Cisko - Connecting Communities, Empowering Lives | Technology for Social Good",
-        "siteDescription": "Join WhatsApp Cisko to connect communities and make a positive impact on lives through technology. Empowering lives and creating social good."
+        "siteTitle": "Watsap Cisko - Connecting Communities, Empowering Lives | Technology for Social Good",
+        "siteDescription": "Join Watsap Cisko to connect communities and make a positive impact on lives through technology. Empowering lives and creating social good."
     }
 }

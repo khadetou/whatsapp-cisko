@@ -249,7 +249,7 @@ const Header: FC<HeaderProps> = ({ dictionary }) => {
               <div className="hoperaiser-top-contact ">
                 <p>
                   <span>{contactUs}</span> <br />
-                  <a href="tel:+2217758867968">(+221) 77 586 79 68</a>
+                  <a href="tel:+221772153704">(+221) 77 215 37 04</a>
                 </p>
               </div>
               <div className="tw-pl-11 tw-h-11 tw-relative">

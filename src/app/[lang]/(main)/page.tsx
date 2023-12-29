@@ -32,10 +32,10 @@ export default async function Home({ params }: { params: { lang: Locale } }) {
       <OurCampaign campaigns={campaigns} />
       {/* <OurTeam /> */}
       <CallToAction callToAction={callToAction} />
-      <UpcommingEvents events={events} />
+      {/* <UpcommingEvents events={events} /> */}
       <Faq faqSection={faqSection} />
       {/* <Testimonials /> */}
-      <Blogs successStoriesSection={successStoriesSection} />
+      {/* <Blogs successStoriesSection={successStoriesSection} /> */}
       <div className="extra-height"></div>
     </>
   );

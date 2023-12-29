@@ -25,23 +25,23 @@
     "supportingCauses": {
         "kidsEducation": {
             "title": "Éducation des enfants",
-            "description": "Notre mission est de veiller à ce que chaque enfant ait accès à des repas sains et nutritifs, quel que soit son statut socio-économique.",
+            "description": "Nous nous engageons à promouvoir l'éducation des enfants, en mettant l'accent sur la lutte contre l'analphabétisme et en favorisant la scolarisation des jeunes filles. Notre objectif est de créer des écoles maternelles, coraniques, et de dispenser des cours de catéchisme pour les chrétiens.",
             "link": {
                 "text": "En savoir plus",
                 "icon": "arrow-right"
             }
         },
         "healthyFood": {
-            "title": "Alimentation saine",
-            "description": "Notre mission est de veiller à ce que chaque enfant ait accès à des repas sains et nutritifs, quel que soit son statut socio-économique.",
+            "title": "Conservation de l'environnement",
+            "description": "Nous nous engageons à promouvoir la reforestation et la préservation de l'environnement. En développant des projets axés sur la plantation d'arbres et la conservation des écosystèmes, nous contribuons à la durabilité écologique et à la préservation de la biodiversité.",
             "link": {
                 "text": "En savoir plus",
                 "icon": "arrow-right"
             }
         },
         "treatment": {
-            "title": "Traitement",
-            "description": "Notre mission est de veiller à ce que chaque enfant ait accès à des repas sains et nutritifs, quel que soit son statut socio-économique.",
+            "title": "Santé",
+            "description": "Nous sommes engagés dans la sensibilisation sur la toxicomanie et la prévention de l'usage de la drogue par l'éducation. Nous visons à offrir des traitements appropriés pour assurer la santé mentale et physique des individus, en partenariat avec des organisations telles que JUVENTEE et BACK TO AFRICA.",
             "link": {
                 "text": "En savoir plus",
                 "icon": "arrow-right"
@@ -75,20 +75,21 @@
         }
     },
     "objectives": {
-        "title": "Notre objectif est d'aider la communauté",
-        "fundraising": "Campagne de collecte de fonds en tout temps",
-        "donations": "Dons collectés et en cours en tout temps",
-        "volunteers": "Nos volontaires à travers le monde",
-        "reviews": "Avis positifs du public",
-        "belief": "Notre organisation croit fermement qu'en travaillant ensemble, nous pouvons sauver plus de vies que jamais auparavant."
+        "title": "Patriotisme économique par l'éducation",
+        "fundraising": "Campagne de collecte de fonds pour le développement durable",
+        "donations": "Dons collectés en faveur du progrès communautaire",
+        "volunteers": "Engagement de nos bénévoles à travers le monde",
+        "reviews": "Appréciations positives du public pour nos actions",
+        "belief": "Conviction profonde : Ensemble, nous pouvons construire un avenir meilleur."
     },
     "objectives1": {
-        "title": "Donner du pouvoir aux communautés grâce à la technologie",
-        "initiatives": "Soutenir des initiatives innovantes pour le changement social",
-        "partnerships": "Favoriser les collaborations pour générer un impact durable",
-        "advocacy": "Promouvoir la littératie numérique et l'accès inclusif à la technologie",
-        "belief": "Nous croyons en l'utilisation de la technologie pour une transformation communautaire positive."
+        "title": "Favoriser le succès des énergies renouvelables",
+        "initiatives": "Soutenir des projets innovants pour un changement social positif",
+        "partnerships": "Établir des collaborations pour un impact durable",
+        "advocacy": "Promouvoir la littératie numérique et l'accès équitable à la technologie",
+        "belief": "Utiliser la technologie pour une transformation positive de la communauté"
     },
+
     "campaigns": {
         "helpOthersTitle": "Aider les autres",
         "introduceCampaignTitle": "Présenter notre campagne",
@@ -96,56 +97,56 @@
         "booksCampaignTitle": "Campagne pour fournir des livres aux enfants",
         "booksCampaignText": "Nous nous concentrons sur l'éducation des enfants, ce qui est crucial pour garantir que les enfants aient accès à une éducation de qualité et à la possibilité de réaliser leur plein potentiel.",
         "booksCampaignGoals": "Objectifs : 25000 $",
-        "booksCampaignRaised": "Collecté : 21000 $",
-        "foodTitle": "Nourriture",
-        "foodCampaignTitle": "Chaque enfant a besoin d'une alimentation saine",
-        "foodCampaignText": "Nous nous concentrons sur l'éducation des enfants, ce qui est crucial pour garantir que les enfants aient accès à une éducation de qualité et à la possibilité de réaliser leur plein potentiel.",
-        "foodCampaignGoals": "Objectifs : 35000 $",
-        "foodCampaignRaised": "Collecté : 25000 $",
-        "healthTitle": "Santé",
-        "healthCampaignTitle": "Traitement pour chaque enfant démunie",
-        "healthCampaignText": "Nous nous concentrons sur l'éducation des enfants, ce qui est crucial pour garantir que les enfants aient accès à une éducation de qualité et à la possibilité de réaliser leur plein potentiel.",
-        "healthCampaignGoals": "Objectifs : 30000 $",
-        "healthCampaignRaised": "Collecté : 28000 $",
+        "booksCampaignRaised": "Collecté : 0 $",
+        "foodTitle": "Durabilité",
+        "foodCampaignTitle": "Promotion des pratiques durables",
+        "foodCampaignText": "Notre engagement envers la durabilité environnementale implique le reboisement et l'adoption de pratiques respectueuses de l'environnement. Découvrez nos progrès et rejoignez-nous pour créer un avenir plus vert.",
+        "foodCampaignGoals": "Objectifs : 50 000 $",
+        "foodCampaignRaised": "Collecté : 0 $",
+        "healthTitle": "EcoVillage",
+        "healthCampaignTitle": "Création d'un Village Autonome",
+        "healthCampaignText": "Contribuez à la création d'un village autonome, offrant des logements, des infrastructures, une formation locale et des opportunités d'emploi.",
+        "healthCampaignGoals": "Objectifs : 250000 $",
+        "healthCampaignRaised": "Collecté : 0 $",
         "educationTitle": "Éducation",
         "educationCampaignTitle": "Soutenez l'éducation des enfants pour un avenir meilleur",
         "educationCampaignText": "L'éducation est le fondement d'un avenir meilleur. Aidez-nous à fournir une éducation de qualité aux enfants dans le besoin, en leur offrant espoir et opportunités.",
         "educationCampaignGoals": "Objectifs : 40000 $",
-        "educationCampaignRaised": "Collecté : 32000 $",
+        "educationCampaignRaised": "Collecté : 0 $",
         "btnDonate": "Faire un don",
         "btnBrowseAll": "Parcourir tout"
     },
     "campaigns1": {
-        "supportingCommunities": "Supporting Communities",
-        "empoweringLives": "Empowering Lives, Together",
-        "empoweringLivesDescription": "Join us in our mission to uplift communities and provide them with essential resources for a better tomorrow.",
-        "cleanWaterCampaign": "Campaign for Clean Water",
-        "cleanWaterDescription": "Access to clean and safe water is a fundamental human right. Our campaign focuses on ensuring communities have this basic necessity for a healthier and happier life.",
-        "cleanWaterGoal": "Goal: $20000",
-        "cleanWaterRaised": "Raised: $15000",
-        "educationalSupport": "Educational Support",
-        "enablingEducation": "Enabling Education for All",
-        "educationDescription": "Education is the key to a brighter future. We aim to support educational initiatives that empower every child to reach their full potential.",
-        "educationGoal": "Goal: $30000",
-        "educationRaised": "Raised: $25000",
-        "healthcare": "Healthcare",
-        "improvingHealth": "Improving Health, Saving Lives",
-        "healthcareDescription": "Accessible healthcare is crucial for a community's well-being. Help us make quality healthcare services accessible to those in need.",
-        "healthcareGoal": "Goal: $25000",
-        "healthcareRaised": "Raised: $20000",
-        "exploreCampaigns": "Explore More Campaigns"
+        "soutenirCommunautes": "Soutenir les communautés",
+        "donnerVie": "Donner vie, ensemble",
+        "descriptionDonnerVie": "Rejoignez-nous dans notre mission d'élever les communautés et de leur fournir des ressources essentielles pour un avenir meilleur.",
+        "campagneEauPropre": "Campagne pour une eau propre",
+        "descriptionEauPropre": "L'accès à une eau propre et sûre est un droit fondamental de l'homme. Notre campagne vise à garantir que les communautés aient cette nécessité de base pour une vie plus saine et plus heureuse.",
+        "objectifEauPropre": "Objectif : 20000 $",
+        "collecteEauPropre": "Collecté : 0 $",
+        "soutienEducation": "Soutien éducatif",
+        "autonomiserEducation": "Autonomiser l'éducation pour tous",
+        "descriptionEducation": "L'éducation est la clé d'un avenir plus radieux. Nous visons à soutenir des initiatives éducatives qui permettent à chaque enfant d'atteindre son plein potentiel.",
+        "objectifEducation": "Objectif : 30000 $",
+        "collecteEducation": "Collecté : 0 $",
+        "soinsDeSante": "Soins de santé",
+        "ameliorerSante": "Améliorer la santé, sauver des vies",
+        "descriptionSante": "Des soins de santé accessibles sont cruciaux pour le bien-être d'une communauté. Aidez-nous à rendre des services de santé de qualité accessibles à ceux dans le besoin.",
+        "objectifSante": "Objectif : 25000 $",
+        "collecteSante": "Collecté : 0 $",
+        "explorerCampagnes": "Explorer plus de campagnes"
     },
     "callToAction": {
-        "savingSight": "Depuis 1990, nous sauvons la vue et changeons des vies à travers le monde",
-        "joinCommunity": "Rejoignez notre communauté de volontaires et aidez les personnes dans le besoin à travers le monde",
+        "savingSight": "Contribuez à la préservation de l'environnement en participant à notre projet",
+        "joinCommunity": "Rejoignez notre communauté engagée pour créer un impact positif dans le monde",
         "ctaButtonJoin": "Rejoignez maintenant",
         "contactUs": "Contactez-nous pour une évaluation de cas"
     },
     "callToAction1": {
         "vision": "Notre vision",
-        "visionDescription": "Donner du pouvoir aux communautés grâce à des initiatives de développement durable, créant ainsi un avenir meilleur pour tous.",
+        "visionDescription": "Explorez notre vision pour un avenir meilleur.",
         "joinOurCause": "Rejoignez notre cause",
-        "joinOurCauseDescription": "Faites partie de notre mission visant à avoir un impact positif sur la vie des personnes dans le besoin."
+        "joinOurCauseDescription": "Découvrez comment vous pouvez contribuer à notre cause."
     },
     "events": {
         "upcomingEvents": "Événements à venir",
@@ -154,47 +155,49 @@
         "event1Title": "Marche annuelle de bienfaisance pour les enfants",
         "event1Description": "Le 22 avril, rejoignez-nous pour notre marche annuelle afin de collecter des fonds pour les enfants dans le besoin. L'événement se tiendra au Central Park et comprendra une marche de 5 km, de la musique live et des camions de restauration."
     },
+
     "faqSection": {
-        "title": "FAQ – Foire aux questions",
-        "description": "Comme vous pouvez l'imaginer, les agents immobiliers reçoivent de nombreuses questions chaque jour. Les gens sont naturellement curieux, et c'est le rôle de l'agent de les guider.",
+        "title": "Foire aux questions",
+        "description": "Explorez les questions fréquemment posées sur WATSAP CISKO et nos initiatives.",
         "questions": [{
-                "question": "Qu'est-ce qu'une organisation caritative ?",
-                "answer": "Une organisation caritative est une organisation à but non lucratif qui vise à aider les personnes, les animaux ou l'environnement en fournissant diverses formes d'aide ou de soutien."
+                "question": "Qu'est-ce que WATSAP CISKO ?",
+                "answer": "WATSAP CISKO est un projet complet axé sur la durabilité environnementale, le reboisement et la création de villages autonomes. Il vise à lutter contre le changement climatique et la dégradation de l'environnement tout en améliorant la vie des communautés locales."
             },
             {
-                "question": "Quels types de services les organisations caritatives proposent-elles ?",
-                "answer": "Une organisation caritative est une organisation à but non lucratif qui vise à aider les personnes, les animaux ou l'environnement en fournissant diverses formes d'aide ou de soutien."
+                "question": "Quels sont les principaux objectifs du projet WATSAP CISKO ?",
+                "answer": "Les objectifs principaux du projet WATSAP CISKO comprennent le reboisement, la promotion des sources d'énergie renouvelable et l'établissement de villages autonomes. Le projet vise à créer un environnement durable et résilient tout en favorisant le développement communautaire."
             },
             {
-                "question": "Comment puis-je faire un don à une organisation caritative ?",
-                "answer": "Une organisation caritative est une organisation à but non lucratif qui vise à aider les personnes, les animaux ou l'environnement en fournissant diverses formes d'aide ou de soutien."
+                "question": "Comment puis-je contribuer au projet WATSAP CISKO ?",
+                "answer": "Vous pouvez contribuer au projet WATSAP CISKO en faisant des dons, en participant à des campagnes de collecte de fonds ou en vous impliquant dans des initiatives communautaires. De plus, sensibiliser à propos du projet et de ses objectifs peut également avoir un impact significatif."
             },
             {
-                "question": "Puis-je être bénévole pour une organisation caritative ?",
-                "answer": "Une organisation caritative est une organisation à but non lucratif qui vise à aider les personnes, les animaux ou l'environnement en fournissant diverses formes d'aide ou de soutien."
+                "question": "Quelles sont les sources de financement disponibles pour le projet WATSAP ?",
+                "answer": "Le projet WATSAP peut être financé par diverses sources, notamment des subventions, des dons, des investissements et des prêts. Les organismes gouvernementaux, les ONG, les entreprises et les particuliers sont des sources potentielles de soutien financier pour le projet."
             }
         ]
     },
     "faqSection1": {
-        "faqTitle": "FAQ – Questions fréquemment posées",
+        "faqTitle": "Engagement communautaire et soutien",
         "faqs": [{
-                "question": "Quelle est la mission de votre organisation?",
-                "answer": "Notre mission est d'avoir un impact positif sur la société en soutenant et aidant les personnes dans le besoin à travers diverses activités et initiatives caritatives."
+                "question": "Comment puis-je rejoindre la communauté WATSAP ?",
+                "answer": "Vous pouvez rejoindre la communauté WATSAP en participant à des événements communautaires, en vous portant volontaire pour des activités du projet ou en devenant donateur. Connectez-vous avec nous via notre site web ou nos réseaux sociaux pour rester informé et engagé."
             },
             {
-                "question": "Comment puis-je faire un don à votre organisation?",
-                "answer": "Vous pouvez faire un don à notre organisation en visitant notre page 'Faire un don' sur notre site Web. Nous acceptons les dons ponctuels ainsi que les dons récurrents."
+                "question": "Quelle est la vision de WATSAP CISKO ?",
+                "answer": "La vision de WATSAP CISKO est de créer un monde durable et harmonieux où la nature et l'humanité coexistent. Il envisage un avenir où la préservation de l'environnement et le bien-être communautaire sont au cœur des initiatives mondiales."
             },
             {
-                "question": "Mes dons sont-ils déductibles d'impôts?",
-                "answer": "Oui, vos dons sont déductibles d'impôts. Nous fournirons un reçu fiscal pour tous les dons que vous ferez à notre organisation."
+                "question": "Comment WATSAP CISKO aborde-t-il les défis environnementaux ?",
+                "answer": "WATSAP CISKO relève les défis environnementaux grâce au reboisement, aux projets d'énergie renouvelable et au développement communautaire durable. En promouvant des pratiques respectueuses de l'environnement, le projet vise à atténuer le changement climatique et à protéger les ressources naturelles."
             },
             {
-                "question": "Puis-je être bénévole pour votre organisation?",
-                "answer": "Oui, nous accueillons favorablement les bénévoles passionnés par notre cause. Visitez notre page 'Bénévolat' pour en savoir plus sur comment vous pouvez vous impliquer."
+                "question": "Y a-t-il des opportunités d'implication communautaire dans WATSAP CISKO ?",
+                "answer": "Oui, WATSAP CISKO encourage l'implication communautaire à chaque étape. Les communautés locales et les parties prenantes sont activement impliquées dans la prise de décision, la mise en œuvre du projet et les initiatives en cours, favorisant une approche participative et inclusive."
             }
         ]
     },
+
     "successStoriesSection": {
         "successStoriesTitle": "Nos histoires à succès",
         "latestNewsTitle": "Dernières nouvelles et articles du blog",
@@ -252,7 +255,7 @@
         "browseAll": "Parcourir Tout"
     },
     "footer": {
-        "donateText": "Faites un don et aidez les personnes du monde entier",
+        "donateText": "Soutenez notre mission pour un impact positif. Rejoignez-nous pour créer un avenir plus vert pour tous.",
         "navigationTitle": "Navigation",
         "navigationLinks": {
             "faq": "FAQ",
@@ -274,7 +277,7 @@
         }
     },
     "seo": {
-        "siteTitle": "WhatsApp Cisko - Connecter les communautés, autonomiser les vies | Technologie au service du bien social",
-        "siteDescription": "Rejoignez WhatsApp Cisko pour connecter les communautés et avoir un impact positif sur les vies grâce à la technologie. Autonomisation des vies et création de bien social."
+        "siteTitle": "Watsap Cisko - Connecter les communautés, autonomiser les vies | Technologie au service du bien social",
+        "siteDescription": "Rejoignez Watsap Cisko pour connecter les communautés et avoir un impact positif sur les vies grâce à la technologie. Autonomisation des vies et création de bien social."
     }
 }

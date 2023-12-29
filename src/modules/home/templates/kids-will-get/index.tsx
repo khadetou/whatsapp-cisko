@@ -56,22 +56,24 @@ const KidsWillGet: FC<KidsWillGetProps> = ({
             <div className="row">
               <div className="col-md-4">
                 <div
-                  className="single-offer"
+                  className="single-offer tw-min-h-[375px] tw-flex tw-flex-col tw-justify-between"
                   data-aos="fade-right"
                   data-aos-easing="linear"
                   data-aos-delay="1000"
                   data-aos-once="true"
                 >
-                  <div className="icon-offer icon-bg01">
-                    <Image
-                      width={20}
-                      height={20}
-                      src="/images/icon-svg/education.svg"
-                      alt=""
-                    />
+                  <div>
+                    <div className="icon-offer icon-bg01">
+                      <Image
+                        width={20}
+                        height={20}
+                        src="/images/icon-svg/education.svg"
+                        alt=""
+                      />
+                    </div>
+                    <h4>{kidsEducation.title}</h4>
+                    <p>{kidsEducation.description}</p>
                   </div>
-                  <h4>{kidsEducation.title}</h4>
-                  <p>{kidsEducation.description}</p>
                   <a href="donation-details.html">
                     {kidsEducation.link.text}
                     <span>
@@ -93,22 +95,24 @@ const KidsWillGet: FC<KidsWillGetProps> = ({
               </div>
               <div className="col-md-4">
                 <div
-                  className="single-offer"
+                  className="single-offer tw-min-h-[375px] tw-flex tw-flex-col tw-justify-between"
                   data-aos="fade-right"
                   data-aos-easing="linear"
                   data-aos-delay="1500"
                   data-aos-once="true"
                 >
-                  <div className="icon-offer icon-bg02">
-                    <Image
-                      width={20}
-                      height={20}
-                      src="/images/icon-svg/healthy-food.svg"
-                      alt=""
-                    />
+                  <div>
+                    <div className="icon-offer icon-bg02">
+                      <Image
+                        width={20}
+                        height={20}
+                        src="/images/icon-svg/healthy-food.svg"
+                        alt=""
+                      />
+                    </div>
+                    <h4>{healthyFood.title}</h4>
+                    <p>{healthyFood.description}</p>
                   </div>
-                  <h4>{healthyFood.title}</h4>
-                  <p>{healthyFood.description}</p>
                   <a href="donation-details.html">
                     {healthyFood.link.text}{" "}
                     <span>
@@ -130,22 +134,24 @@ const KidsWillGet: FC<KidsWillGetProps> = ({
               </div>
               <div className="col-md-4">
                 <div
-                  className="single-offer"
+                  className="single-offer tw-min-h-[375px] tw-flex tw-flex-col tw-justify-between"
                   data-aos="fade-right"
                   data-aos-easing="linear"
                   data-aos-delay="2500"
                   data-aos-once="true"
                 >
-                  <div className="icon-offer icon-bg03">
-                    <Image
-                      width={20}
-                      height={20}
-                      src="/images/icon-svg/stethoscope.svg"
-                      alt=""
-                    />
+                  <div>
+                    <div className="icon-offer icon-bg03">
+                      <Image
+                        width={20}
+                        height={20}
+                        src="/images/icon-svg/stethoscope.svg"
+                        alt=""
+                      />
+                    </div>
+                    <h4>{treatment.title}</h4>
+                    <p>{treatment.description}</p>
                   </div>
-                  <h4>{treatment.title}</h4>
-                  <p>{treatment.description}</p>
                   <a href="donation-details.html">
                     {treatment.link.text}{" "}
                     <span>

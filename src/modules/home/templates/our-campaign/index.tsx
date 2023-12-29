@@ -76,7 +76,7 @@ const OurCampaign: FC<OurCampaignProps> = ({
         <div className="row">
           <div className="col-lg-4 col-md-4">
             <div
-              className="single-donation-box"
+              className="single-donation-box tw-flex tw-flex-col tw-justify-between tw-min-h-[571px]"
               data-aos="fade-right"
               data-aos-duration="500"
               data-aos-easing="linear"
@@ -120,14 +120,14 @@ const OurCampaign: FC<OurCampaignProps> = ({
           </div>
           <div className="col-lg-4 col-md-4">
             <div
-              className="single-donation-box"
+              className="single-donation-box tw-flex tw-flex-col tw-justify-between tw-min-h-[571px]"
               data-aos="fade-right"
               data-aos-duration="1000"
               data-aos-easing="linear"
             >
               <div className="donation-top-view">
                 <Image
-                  src="/images/home/campaign02.png"
+                  src="/images/home/reforestation.jpg"
                   alt=""
                   width={326}
                   height={204}
@@ -164,14 +164,14 @@ const OurCampaign: FC<OurCampaignProps> = ({
           </div>
           <div className="col-lg-4 col-md-4">
             <div
-              className="single-donation-box"
+              className="single-donation-box tw-flex tw-flex-col tw-justify-between tw-min-h-[571px]"
               data-aos="fade-right"
               data-aos-duration="1500"
               data-aos-easing="linear"
             >
               <div className="donation-top-view">
                 <Image
-                  src="/images/home/campaign03.png"
+                  src="/images/home/village.jpg"
                   alt=""
                   width={326}
                   height={204}

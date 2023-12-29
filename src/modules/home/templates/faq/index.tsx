@@ -1,4 +1,5 @@
-import React, { FC } from "react";
+"use client";
+import { FC, useState } from "react";
 
 interface FaqProps {
   faqSection:
@@ -23,6 +24,11 @@ interface FaqProps {
 const Faq: FC<FaqProps> = ({
   faqSection: { title, description, questions },
 }) => {
+  const [activeIndex, setActiveIndex] = useState<number | null>(null);
+
+  const handleAccordionClick = (idx: number) => {
+    setActiveIndex(activeIndex === idx ? null : idx);
+  };
   return (
     <section className="faq">
       <div className="container">
@@ -53,19 +59,24 @@ const Faq: FC<FaqProps> = ({
                   >
                     <h2 className="accordion-header">
                       <button
-                        className="accordion-button"
+                        className={`accordion-button ${
+                          activeIndex === idx ? "" : "collapsed"
+                        }`}
                         type="button"
                         data-bs-toggle="collapse"
-                        data-bs-target="#collapseOne"
-                        aria-expanded="true"
-                        aria-controls="collapseOne"
+                        onClick={() => handleAccordionClick(idx)}
+                        data-bs-target={`#collapse${idx}`}
+                        aria-expanded={activeIndex === idx}
+                        aria-controls={`collapse${idx}`}
                       >
                         {question}
                       </button>
                     </h2>
                     <div
-                      id="collapseOne"
-                      className="accordion-collapse collapse show"
+                      id={`collapse${idx}`}
+                      className={`accordion-collapse collapse ${
+                        activeIndex === idx ? "show" : ""
+                      }`}
                       data-bs-parent="#accordionHoperaiser"
                     >
                       <div className="accordion-body">{answer}</div>
