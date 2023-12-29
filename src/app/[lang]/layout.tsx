@@ -17,9 +17,9 @@ const mada = Mada({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title:
-    "WhatsApp Cisko - Connecter les communautés, autonomiser les vies | Technologie au service du bien social",
+    "Watsap Cisko - Connecter les communautés, autonomiser les vies | Technologie au service du bien social",
   description:
-    "Rejoignez WhatsApp Cisko pour connecter les communautés et avoir un impact positif sur les vies grâce à la technologie. Autonomisation des vies et création de bien social.",
+    "Rejoignez Watsap Cisko pour connecter les communautés et avoir un impact positif sur les vies grâce à la technologie. Autonomisation des vies et création de bien social.",
 };
 
 export async function generateStaticParams() {
