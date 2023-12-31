@@ -11,8 +11,19 @@ const config: Config = {
   ],
 
   theme: {
-    extend: {},
+    extend: {
+      colors:{
+        primary: "#1b8741",
+        secondary: "#664218",
+      }
+    },
   },
-  plugins: [],
+  plugins: [require("daisyui")],
+
+ 
+    daisyui: {
+      themes: false, 
+      darkTheme: "light", 
+    },
 };
 export default config;

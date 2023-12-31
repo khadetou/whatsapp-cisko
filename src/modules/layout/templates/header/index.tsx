@@ -159,28 +159,37 @@ const Header: FC<HeaderProps> = ({ dictionary }) => {
                   <li className={pathname.endsWith("/about") ? "active" : ""}>
                     <Link href="/about">{aboutUs}</Link>
                   </li>
-                  <li>
-                    <a href="#" className="sub-btn">
+                  <li className={pathname.endsWith("/events") ? "active" : ""}>
+                    <Link href="/events" className="sub-btn">
                       {events}
-                    </a>
+                    </Link>
                   </li>
-                  <li>
-                    <a href="#" className="sub-btn">
+                  <li
+                    className={
+                      pathname.endsWith("/campaigns") ||
+                      pathname.endsWith("/supportEducation") ||
+                      pathname.endsWith("/sustainability") ||
+                      pathname.endsWith("/villageAutonome")
+                        ? "active"
+                        : ""
+                    }
+                  >
+                    <Link href="/campaigns" className="sub-btn">
                       {campaign}
-                    </a>
+                    </Link>
                   </li>
-                  <li>
-                    <a href="#" className="sub-btn">
+                  <li
+                    className={pathname.endsWith("/volunteer") ? "active" : ""}
+                  >
+                    <Link href="/volunteer" className="sub-btn">
                       {volunteer}
-                    </a>
+                    </Link>
                   </li>
-                  <li>
-                    <a href="#" className="sub-btn">
-                      {donateNow}
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#">{contact}</a>
+
+                  <li
+                    className={pathname.endsWith("/contact-us") ? "active" : ""}
+                  >
+                    <Link href="/contact-us">{contact}</Link>
                   </li>
                 </ul>
               </nav>

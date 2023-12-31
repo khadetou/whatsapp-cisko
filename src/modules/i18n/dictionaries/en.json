@@ -113,7 +113,14 @@
         "educationCampaignGoals": "Goals: $40,000",
         "educationCampaignRaised": "Raised: $0",
         "btnDonate": "Donate Now",
-        "btnBrowseAll": "Browse All"
+        "btnBrowseAll": "Browse All",
+        "Campaign": {
+            "title": "Campaign",
+            "link": {
+                "acceuil": "Home",
+                "campaign": "Campaign"
+            }
+        }
     },
     "campaigns1": {
         "supportingCommunities": "Supporting Communities",
@@ -302,5 +309,193 @@
             "sentence2": "Watsap Cisko supports education and health for communities worldwide."
         }
 
+    },
+    "Events": {
+        "title": "Events",
+        "link": {
+            "acceuil": "Home",
+            "events": "Events"
+        },
+        "emptyMessage": "No upcoming events!"
+    },
+    "Volunteer": {
+        "title": "Volunteer",
+        "link": {
+            "acceuil": "Home",
+            "volunteer": "Volunteer"
+        },
+        "becomeVol": {
+            "subtitle": "Contributing to a Better World",
+            "title": "Watsap Cisko: Building Sustainable Communities for a Radiant Future",
+            "paragraph1": "At Watsap Cisko, we are committed to making a positive and lasting impact on the world. Our dedication extends to various projects, including reforestation, education, and health initiatives. By focusing on these key areas, we aim to create resilient communities and promote environmental sustainability.",
+            "paragraph2": "We invite you to join us in our mission to shape a better future. Your support is crucial in bringing our initiatives to fruition, making meaningful positive changes in the lives of disadvantaged individuals. Together, let's work towards a more sustainable and compassionate world.",
+            "btnCall": "Call",
+            "btnEmail": "Email"
+        },
+        "registerVol": {
+            "subtitle": "Contact Us",
+            "title": "Leave us a message",
+            "paragraph1": "We're delighted to hear from you. If you have any questions, comments, or if you'd like to learn more about our initiatives, feel free to reach out using the form below.",
+            "formPlaceholders": {
+                "name": "Name",
+                "email": "Email Address",
+                "phone": "Phone Number",
+                "address": "Address",
+                "occupation": "Occupation"
+            },
+            "messageContent": "Write to us, sharing a bit more about yourself and the reason you want to get involved or get information. We look forward to hearing from you and collaborating to make a positive impact.",
+            "submitButton": "Sumbit"
+        },
+        "whatyouget": {
+            "subtitle": "Benefits",
+            "title": "Why Choose Watsap Cisko?",
+            "paragraph": "Choose Watsap Cisko for a greener, sustainable, and impactful world.",
+            "benefitsList": [
+                "Positive Impact on the Environment",
+                "Support for Education and Health Initiatives",
+                "Reforestation and Conservation Projects",
+                "Commitment to Sustainable Practices",
+                "Empowering Communities Worldwide",
+                "Focus on Environmental Sustainability",
+                "Creating Autonomous Villages",
+                "Opportunities for Volunteering"
+            ],
+            "expression1": "Building a sustainable future together.",
+            "expression2": "Join us for a meaningful impact."
+        }
+
+    },
+    "Contact": {
+        "title": "Contact Us",
+        "link": {
+            "acceuil": "Home",
+            "contactUs": "Contact Us"
+        },
+        "contactUs": {
+            "subtitle": "We're here to listen",
+            "title": "Contact Us",
+            "paragraph": "Feel free to reach out to us for any questions, additional information, or potential collaboration. We're here to assist you and ready to address your concerns.",
+            "form": {
+                "placeholders": {
+                    "name": "Full Name",
+                    "email": "Email Address",
+                    "phone": "Phone Number",
+                    "subject": "Message Subject",
+                    "occupation": "Occupation"
+                },
+                "messagePlaceholder": "Write your message here...",
+                "submitButton": "Submit"
+            },
+            "contactDetails": {
+                "phone": "Phone",
+                "email": "Email",
+                "address": "Address"
+            }
+        }
+
+
+    },
+
+    "donate": {
+        "Donate": {
+            "title": "Donate",
+            "link": {
+                "acceuil": "Home",
+                "donateNow": "Donate Now"
+            }
+        },
+        "donateNow": [{
+                "supportEducation": {
+                    "subtitle": "Make a Difference",
+                    "title": "Support Children's Education \n for a Better Future",
+                    "onlineButton": "Donate Online",
+                    "offlineButton": "Donate Offline",
+                    "selectTitle": "Select",
+                    "selectDonationAmount": "Select Donation Amount",
+                    "or": "or",
+                    "enterAmount": "Enter amount in USD",
+                    "paymentMethod": "Payment Method",
+                    "selectCard": "Select a card",
+                    "donateButton": "Donate Now",
+                    "goals": "Goals",
+                    "raised": "Raised",
+                    "transferFunds": "Please transfer funds to",
+                    "bankName": "Bank Name",
+                    "bankNumber": "Account Number",
+                    "orangeMoney": "Orange Money",
+                    "wave": "Wave",
+                    "paragraph1": "Your contribution has a significant impact on our initiatives, enabling us to continue supporting communities in need.",
+                    "paragraph2": "Choose a campaign, select your preferred donation method, and be part of creating positive change.",
+                    "benefits": [
+                        "Supporting education for a better future",
+                        "Promoting sustainable practices for environmental health",
+                        "Empowering communities through educational initiatives",
+                        "Creating opportunities for underprivileged children"
+                    ]
+                }
+            },
+            {
+                "sustainability": {
+                    "subtitle": "Make a Difference",
+                    "title": "Support Sustainability",
+                    "onlineButton": "Donate Online",
+                    "offlineButton": "Donate Offline",
+                    "selectTitle": "Select",
+                    "selectDonationAmount": "Select Donation Amount",
+                    "or": "or",
+                    "enterAmount": "Enter amount in USD",
+                    "paymentMethod": "Payment Method",
+                    "selectCard": "Select a card",
+                    "donateButton": "Donate Now",
+                    "goals": "Goals",
+                    "raised": "Raised",
+                    "transferFunds": "Please transfer funds to",
+                    "bankName": "Bank Name",
+                    "bankNumber": "Account Number",
+                    "orangeMoney": "Orange Money",
+                    "wave": "Wave",
+                    "paragraph1": "Your contribution has a significant impact on our initiatives, enabling us to continue supporting communities in need.",
+                    "paragraph2": "Choose a campaign, select your preferred donation method, and be part of creating positive change.",
+                    "benefits": [
+                        "Promoting environmental sustainability through reforestation",
+                        "Adopting eco-friendly practices for a greener future",
+                        "Contributing to the global effort for a sustainable planet",
+                        "Combating climate change through sustainable initiatives"
+                    ]
+                }
+            },
+            {
+                "villageAutonome": {
+                    "subtitle": "Make a Difference",
+                    "title": "Support the Creation of a Sustainable Village",
+                    "onlineButton": "Donate Online",
+                    "offlineButton": "Donate Offline",
+                    "selectTitle": "Select",
+                    "selectDonationAmount": "Select Donation Amount",
+                    "or": "or",
+                    "enterAmount": "Enter amount in USD",
+                    "paymentMethod": "Payment Method",
+                    "selectCard": "Select a card",
+                    "donateButton": "Donate Now",
+                    "goals": "Goals",
+                    "raised": "Raised",
+                    "transferFunds": "Please transfer funds to",
+                    "bankName": "Bank Name",
+                    "bankNumber": "Account Number",
+                    "orangeMoney": "Orange Money",
+                    "wave": "Wave",
+                    "paragraph1": "Your contribution has a significant impact on our initiatives, enabling us to continue supporting communities in need.",
+                    "paragraph2": "Choose a campaign, select your preferred donation method, and be part of creating positive change.",
+                    "benefits": [
+                        "Fostering self-sufficiency in autonomous villages",
+                        "Supporting a sustainable lifestyle and community development",
+                        "Empowering local communities through holistic approaches",
+                        "Creating a positive impact on rural development"
+                    ]
+                }
+            }
+
+
+        ]
     }
 }

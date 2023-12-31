@@ -4955,7 +4955,7 @@ ul {
   top: 0;
   width: 18px;
   height: 18px;
-  background-color: #feaea3;
+  background-color: #1b8741;
   -webkit-transform: rotate(45deg);
   -ms-transform: rotate(45deg);
   transform: rotate(45deg);
@@ -5126,7 +5126,7 @@ ul {
   font-size: 20px;
   font-weight: 400;
   line-height: normal;
-  color: #eeaa21;
+  color: #664218;
   margin-bottom: 11px;
   text-transform: uppercase;
   letter-spacing: 1px;
@@ -5157,7 +5157,7 @@ ul {
   display: inline-block;
   text-decoration: none;
   padding: 11px 29.2px;
-  background-color: #eeaa21;
+  background-color: #664218;
   border-radius: 4px;
   letter-spacing: 1px;
   -webkit-transition: background 0.3s;
@@ -5196,7 +5196,7 @@ ul {
 }
 
 .btn-vol-black {
-  background-color: #444b47;
+  background-color: #1b8741;
 }
 
 .vol-btns {
@@ -5245,7 +5245,7 @@ ul {
   font-size: 20px;
   font-weight: 400;
   line-height: normal;
-  color: #eeaa21;
+  color: #1b8741;
   text-transform: uppercase;
   letter-spacing: 1px;
   margin-bottom: 5px;
@@ -6060,7 +6060,7 @@ ul {
 }
 
 .donate-tabs .nav-link.active {
-  background-color: #1eca8c;
+  background-color: #00501f !important;
 }
 
 .donate-tabs .nav {
@@ -6121,7 +6121,7 @@ ul {
 }
 
 #ammount {
-  background-color: #fdf6e9;
+  background-color: #ededed;
   color: #676968;
   border: none;
   font-size: 20px;
@@ -6175,7 +6175,7 @@ ul {
   content: "";
   right: 0;
   top: 0;
-  background-color: #eeaa21;
+  background-color: #664218;
   background-image: url(/images/icon-svg/arrow-down.svg);
   background-repeat: no-repeat;
   background-size: 25px 25px;
@@ -6222,7 +6222,7 @@ ul {
 }
 
 .tab-donate-details h4 {
-  color: #eeaa21;
+  color: #664218;
   font-size: 24px;
   font-weight: 400;
   line-height: 28px;

@@ -114,7 +114,14 @@
         "educationCampaignGoals": "Objectifs : 40000 $",
         "educationCampaignRaised": "Collecté : 0 $",
         "btnDonate": "Faire un don",
-        "btnBrowseAll": "Parcourir tout"
+        "btnBrowseAll": "Parcourir tout",
+        "Campaign": {
+            "title": "Campagne",
+            "link": {
+                "acceuil": "Accueil",
+                "campaign": "Campagne"
+            }
+        }
     },
     "campaigns1": {
         "soutenirCommunautes": "Soutenir les communautés",
@@ -300,6 +307,192 @@
             "sentence1": "Watsap Cisko, à travers le reboisement, contribue à la durabilité environnementale.",
             "sentence2": "Watsap Cisko soutient l'éducation et la santé des communautés à travers le monde."
         }
+    },
 
+    "Events": {
+        "title": "Événements",
+        "link": {
+            "acceuil": "Accueil",
+            "events": "Événements"
+        },
+        "emptyMessage": " Pas d'événements à venir!"
+    },
+
+    "Volunteer": {
+        "title": "Volontaire",
+        "link": {
+            "acceuil": "Accueil",
+            "volunteer": "Volontaire"
+        },
+        "becomeVol": {
+            "subtitle": "Contribuer à un monde meilleur",
+            "title": "Watsap Cisko : Bâtir des Communautés Durables pour un Avenir Resplendissant",
+            "paragraph1": "Chez Watsap Cisko, notre engagement vise à avoir un impact positif et durable sur le monde. Nous concentrons nos efforts sur divers projets, tels que le reboisement, l'éducation et des initiatives de santé. En nous focalisant sur ces domaines clés, notre objectif est de créer des communautés résilientes et de promouvoir la durabilité environnementale.",
+            "paragraph2": "Nous vous invitons à vous joindre à nous dans notre mission de façonner un avenir meilleur. Votre soutien est essentiel pour concrétiser nos initiatives et apporter des changements positifs significatifs dans la vie des personnes défavorisées. Ensemble, travaillons vers un monde plus durable et compatissant.",
+            "btnCall": "Appeler",
+            "btnEmail": "E-mail"
+        },
+        "registerVol": {
+            "subtitle": "Nous Contacter",
+            "title": "Laissez-nous un message",
+            "paragraph1": "Nous sommes ravis de vous entendre. Si vous avez des questions, des commentaires ou si vous souhaitez en savoir plus sur nos initiatives, n'hésitez pas à nous contacter en utilisant le formulaire ci-dessous.",
+            "formPlaceholders": {
+                "name": "Nom",
+                "email": "Adresse e-mail",
+                "phone": "Numéro de téléphone",
+                "address": "Adresse",
+                "occupation": "Profession"
+            },
+            "messageContent": "Écrivez-nous en partageant un peu plus sur vous-même et sur la raison pour laquelle vous souhaitez vous impliquer ou obtenir des informations. Nous sommes impatients de vous entendre et de collaborer avec vous pour créer un impact positif.",
+            "submitButton": "Envoyer"
+        },
+        "whatyouget": {
+            "subtitle": "Avantages",
+            "title": "Pourquoi choisir Watsap Cisko ?",
+            "paragraph": "Choisissez Watsap Cisko pour un monde plus vert, durable et impactant.",
+            "benefitsList": [
+                "Impact positif sur l'environnement",
+                "Soutien aux initiatives éducatives et de santé",
+                "Projets de reboisement et de conservation",
+                "Engagement envers des pratiques durables",
+                "Autonomisation des communautés à l'échelle mondiale",
+                "Accent sur la durabilité environnementale",
+                "Création de villages autonomes",
+                "Opportunités de bénévolat"
+            ],
+            "expression1": "Bâtir un avenir durable ensemble.",
+            "expression2": "Rejoignez-nous pour un impact significatif."
+        }
+    },
+    "Contact": {
+        "title": "Contact",
+        "link": {
+            "acceuil": "Accueil",
+            "contactUs": "Contactez-nous"
+        },
+        "contactUs": {
+            "subtitle": "Nous sommes à votre écoute",
+            "title": "Contactez-nous",
+            "paragraph": "N'hésitez pas à nous contacter pour toute question, information supplémentaire ou collaboration potentielle. Nous sommes là pour vous aider et prêts à répondre à vos préoccupations.",
+            "form": {
+                "placeholders": {
+                    "name": "Nom complet",
+                    "email": "Adresse e-mail",
+                    "phone": "Numéro de téléphone",
+                    "subject": "Sujet du message",
+                    "occupation": "Profession"
+                },
+                "messagePlaceholder": "Écrivez votre message ici...",
+                "submitButton": "Envoyer"
+            },
+            "contactDetails": {
+                "phone": "Téléphone",
+                "email": "E-mail",
+                "address": "Adresse"
+            }
+        }
+    },
+    "donate": {
+        "Donate": {
+            "title": "Faire un don",
+            "link": {
+                "acceuil": "Accueil",
+                "donateNow": "Bénevolat"
+            }
+        },
+        "donateNow": [
+
+            {
+                "supportEducation": {
+                    "subtitle": "Faites une différence",
+                    "title": "Soutenez l'éducation des enfants pour un avenir meilleur",
+                    "onlineButton": "Faire un don en ligne",
+                    "offlineButton": "Faire un don hors ligne",
+                    "selectTitle": "Sélectionner",
+                    "selectDonationAmount": "Sélectionner le montant du don",
+                    "or": "ou",
+                    "enterAmount": "Entrer le montant en USD",
+                    "paymentMethod": "Méthode de paiement",
+                    "selectCard": "Sélectionner une carte",
+                    "donateButton": "Faire un don",
+                    "goals": "Objectifs",
+                    "raised": "Collecté",
+                    "paragraph1": "Votre contribution a un impact significatif sur nos initiatives, nous permettant de continuer à soutenir les communautés dans le besoin.",
+                    "paragraph2": "Choisissez une campagne, sélectionnez votre méthode de don préférée et participez à la création d'un changement positif.",
+                    "transferFunds": "Veuillez transférer les fonds à",
+                    "bankName": "Nom de la banque",
+                    "bankNumber": "Numéro de compte",
+                    "orangeMoney": "Orange Money",
+                    "wave": "Wave",
+                    "benefits": [
+                        "Soutien à l'éducation pour un avenir meilleur",
+                        "Promotion de pratiques durables pour la santé environnementale",
+                        "Autonomisation des communautés grâce aux initiatives éducatives",
+                        "Création d'opportunités pour les enfants défavorisés"
+                    ]
+                }
+            },
+            {
+                "sustainability": {
+                    "subtitle": "Faites une différence",
+                    "title": "Soutenez la durabilité",
+                    "onlineButton": "Faire un don en ligne",
+                    "offlineButton": "Faire un don hors ligne",
+                    "selectTitle": "Sélectionner",
+                    "selectDonationAmount": "Sélectionner le montant du don",
+                    "or": "ou",
+                    "enterAmount": "Entrer le montant en USD",
+                    "paymentMethod": "Méthode de paiement",
+                    "selectCard": "Sélectionner une carte",
+                    "donateButton": "Faire un don",
+                    "goals": "Objectifs",
+                    "raised": "Collecté",
+                    "transferFunds": "Veuillez transférer les fonds à",
+                    "bankName": "Nom de la banque",
+                    "bankNumber": "Numéro de compte",
+                    "orangeMoney": "Orange Money",
+                    "wave": "Wave",
+                    "paragraph1": "Votre contribution a un impact significatif sur nos initiatives, nous permettant de continuer à soutenir les communautés dans le besoin.",
+                    "paragraph2": "Choisissez une campagne, sélectionnez votre méthode de don préférée et participez à la création d'un changement positif.",
+                    "benefits": [
+                        "Promotion de la durabilité environnementale par le reboisement",
+                        "Adoption de pratiques respectueuses de l'environnement pour un avenir plus vert",
+                        "Contribution à l'effort mondial pour une planète durable",
+                        "Lutte contre le changement climatique par des initiatives durables"
+                    ]
+                }
+            },
+            {
+                "villageAutonome": {
+                    "subtitle": "Faites une différence",
+                    "title": "Soutenez la création d'un village autonome",
+                    "onlineButton": "Faire un don en ligne",
+                    "offlineButton": "Faire un don hors ligne",
+                    "selectTitle": "Sélectionner",
+                    "selectDonationAmount": "Sélectionner le montant du don",
+                    "or": "ou",
+                    "enterAmount": "Entrer le montant en USD",
+                    "paymentMethod": "Méthode de paiement",
+                    "selectCard": "Sélectionner une carte",
+                    "donateButton": "Faire un don",
+                    "goals": "Objectifs",
+                    "raised": "Collecté",
+                    "transferFunds": "Veuillez transférer les fonds à",
+                    "bankName": "Nom de la banque",
+                    "bankNumber": "Numéro de compte",
+                    "orangeMoney": "Orange Money",
+                    "wave": "Wave",
+                    "paragraph1": "Votre contribution a un impact significatif sur nos initiatives, nous permettant de continuer à soutenir les communautés dans le besoin.",
+                    "paragraph2": "Choisissez une campagne, sélectionnez votre méthode de don préférée et participez à la création d'un changement positif.",
+                    "benefits": [
+                        "Favoriser l'autosuffisance dans les villages autonomes",
+                        "Soutien à un mode de vie durable et au développement communautaire",
+                        "Autonomisation des communautés locales grâce à des approches holistiques",
+                        "Création d'un impact positif sur le développement rural"
+                    ]
+                }
+            }
+
+        ]
     }
 }

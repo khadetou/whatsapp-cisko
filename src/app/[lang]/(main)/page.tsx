@@ -6,7 +6,7 @@ import KidsWillGet from "@/modules/home/templates/kids-will-get";
 import OurCampaign from "@/modules/home/templates/our-campaign";
 import OurObject from "@/modules/home/templates/our-object";
 import OurTeam from "@/modules/home/templates/our-team";
-import SupportSystem from "@/modules/home/templates/support-system";
+import SupportSystem from "@/modules/common/components/support-system";
 import Testimonials from "@/modules/home/templates/testimonials";
 import UpcommingEvents from "@/modules/home/templates/upcomming-events";
 import { Locale, i18n } from "@/modules/i18n/i18n.config";
