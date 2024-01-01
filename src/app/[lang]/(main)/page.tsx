@@ -25,7 +25,7 @@ export default async function Home({ params }: { params: { lang: Locale } }) {
   } = await getDictionary(params.lang);
   return (
     <>
-      <Hero heroSection={heroSection} />
+      <Hero lang={params.lang} heroSection={heroSection} />
       <SupportSystem impactStatements={impactStatements} />
       <KidsWillGet supportingCauses={supportingCauses} />
       <OurObject objectives={objectives} />

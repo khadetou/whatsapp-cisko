@@ -22,6 +22,7 @@ export default async function Layout({
     <>
       <Header lang={params} dictionary={dictionary} />
       {children}
+
       <Footer footer={dictionary.footer} />
     </>
   );

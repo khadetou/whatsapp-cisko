@@ -12,6 +12,7 @@ import Providers from "@/modules/providers";
 import type { Metadata } from "next";
 import { Mada } from "next/font/google";
 import { Locale, i18n } from "@/modules/i18n/i18n.config";
+import { Toaster } from "react-hot-toast";
 
 const mada = Mada({ subsets: ["latin"] });
 
@@ -36,7 +37,10 @@ export default function RootLayout({
   return (
     <html lang={params.lang}>
       <body className={mada.className}>
-        <Providers>{children}</Providers>
+        <Providers>
+          {children}
+          <Toaster position="top-right" />
+        </Providers>
       </body>
     </html>
   );

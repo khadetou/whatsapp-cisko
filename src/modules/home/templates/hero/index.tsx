@@ -1,6 +1,8 @@
+import { Locale } from "@/modules/i18n/i18n.config";
 import Image from "next/image";
 import Link from "next/link";
 import { FC } from "react";
+import { i18n } from "@/modules/i18n/i18n.config";
 
 interface HeroProps {
   heroSection: {
@@ -9,9 +11,11 @@ interface HeroProps {
     paragraph: string;
     donateButton: string;
   };
+  lang: Locale;
 }
 const Hero: FC<HeroProps> = ({
   heroSection: { topTitle, mainTitle, paragraph, donateButton },
+  lang,
 }) => {
   return (
     <section className="hero">
@@ -59,7 +63,14 @@ const Hero: FC<HeroProps> = ({
                 {mainTitle} <br />
               </h1>
               <p>{paragraph}</p>
-              <Link className="btn-primary-c" href="/donate">
+              <Link
+                className="btn-primary-c"
+                href={
+                  lang === i18n.defaultLocale
+                    ? "/campaigns"
+                    : `/${lang}/campaigns`
+                }
+              >
                 {donateButton}
               </Link>
             </div>
@@ -69,7 +80,6 @@ const Hero: FC<HeroProps> = ({
               <div className="row">
                 <div className="col-md-6 col-6">
                   <div className="hero-showcase-left">
-                   
                     <Image
                       className="hero-showcase01 tw-relative before:tw-contents"
                       data-aos="zoom-out-up"

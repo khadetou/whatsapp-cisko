@@ -1,5 +1,13 @@
+"use client";
 import Image from "next/image";
 import { FC } from "react";
+import { useForm, SubmitHandler } from "react-hook-form";
+import { zodResolver } from "@hookform/resolvers/zod";
+import { z } from "zod";
+import { Email } from "@/emails/contact-form-email";
+import { sendEmail } from "@/action";
+import { ContactFormSchema } from "@/lib/schema";
+import toast from "react-hot-toast";
 
 interface ContactUsProps {
   contactUs: {
@@ -19,6 +27,8 @@ interface ContactUsProps {
     };
   };
 }
+
+export type ContactFormInputs = z.infer<typeof ContactFormSchema>;
 const ContactUs: FC<ContactUsProps> = ({
   contactUs: {
     subtitle,
@@ -31,6 +41,29 @@ const ContactUs: FC<ContactUsProps> = ({
     },
   },
 }) => {
+  // USE FORM
+
+  const {
+    register,
+    handleSubmit,
+    reset,
+    formState: { errors, isSubmitting },
+  } = useForm<ContactFormInputs>({
+    resolver: zodResolver(ContactFormSchema),
+  });
+
+  const processForm: SubmitHandler<ContactFormInputs> = async (data) => {
+    const result = await sendEmail(data);
+
+    if (result?.success) {
+      toast.success("Email sent successfully");
+      reset();
+      return;
+    }
+    console.log(result?.error);
+    toast.error("Email not sent");
+  };
+
   return (
     <section className="contact-us">
       <div className="shape-contactus">
@@ -71,23 +104,138 @@ const ContactUs: FC<ContactUsProps> = ({
               <h2>{title}</h2>
               <p>{paragraph}</p>
               <div className="contact-formv1">
-                <form action="#" className="!tw-bg-secondary">
+                <form
+                  onSubmit={handleSubmit(processForm)}
+                  className="!tw-bg-secondary"
+                >
                   <div className="formv1">
-                    <input type="text" name="name" placeholder={name} />
-                    <input type="email" name="email" placeholder={email} />
+                    <input
+                      type="text"
+                      {...register("name")}
+                      placeholder={name}
+                    />
+                    {errors.name?.message && (
+                      <div role="alert" className="alert alert-error">
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          className="stroke-current shrink-0 h-6 w-6"
+                          fill="none"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                            strokeWidth="2"
+                            d="M10 14l2-2m0 0l2-2m-2 2l-2-2m2 2l2 2m7-2a9 9 0 11-18 0 9 9 0 0118 0z"
+                          />
+                        </svg>
+                        <span>
+                          <span>{errors.name?.message}</span>
+                        </span>
+                      </div>
+                    )}
+                    <input
+                      type="email"
+                      {...register("email")}
+                      placeholder={email}
+                    />
+                    {errors.email?.message && (
+                      <div role="alert" className="alert alert-error">
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          className="stroke-current shrink-0 h-6 w-6"
+                          fill="none"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                            strokeWidth="2"
+                            d="M10 14l2-2m0 0l2-2m-2 2l-2-2m2 2l2 2m7-2a9 9 0 11-18 0 9 9 0 0118 0z"
+                          />
+                        </svg>
+                        <span>{errors.email?.message}</span>
+                      </div>
+                    )}
                   </div>
                   <div className="formv1">
-                    <input type="text" name="phone" placeholder={phone} />
-                    <input type="text" name="subject" placeholder={subject} />
+                    <input
+                      type="text"
+                      {...register("phone")}
+                      placeholder={phone}
+                    />
+                    {errors.email?.message && (
+                      <div role="alert" className="alert alert-error">
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          className="stroke-current shrink-0 h-6 w-6"
+                          fill="none"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                            strokeWidth="2"
+                            d="M10 14l2-2m0 0l2-2m-2 2l-2-2m2 2l2 2m7-2a9 9 0 11-18 0 9 9 0 0118 0z"
+                          />
+                        </svg>
+                        <span>{errors.phone?.message}</span>
+                      </div>
+                    )}
+                    <input
+                      type="text"
+                      {...register("subject")}
+                      placeholder={subject}
+                    />
+                    {errors.subject?.message && (
+                      <div role="alert" className="alert alert-error">
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          className="stroke-current shrink-0 h-6 w-6"
+                          fill="none"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                            strokeWidth="2"
+                            d="M10 14l2-2m0 0l2-2m-2 2l-2-2m2 2l2 2m7-2a9 9 0 11-18 0 9 9 0 0118 0z"
+                          />
+                        </svg>
+                        <span>{errors.subject?.message}</span>
+                      </div>
+                    )}
                   </div>
                   <div className="formv1">
                     <textarea
-                      name="message"
+                      {...register("message")}
                       placeholder={messagePlaceholder}
                     ></textarea>
+                    {errors.message?.message && (
+                      <div role="alert" className="alert alert-error">
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          className="stroke-current shrink-0 h-6 w-6"
+                          fill="none"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                            strokeWidth="2"
+                            d="M10 14l2-2m0 0l2-2m-2 2l-2-2m2 2l2 2m7-2a9 9 0 11-18 0 9 9 0 0118 0z"
+                          />
+                        </svg>
+                        <span>{errors.message?.message}</span>
+                      </div>
+                    )}
                   </div>
-                  <button className="btn-donate" type="submit">
-                    {submitButton}
+                  <button
+                    disabled={isSubmitting}
+                    className="btn-donate"
+                    type="submit"
+                  >
+                    {isSubmitting ? "Sending..." : submitButton}
                   </button>
                 </form>
               </div>
