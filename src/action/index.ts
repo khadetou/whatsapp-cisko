@@ -3,7 +3,7 @@
 import {z} from "zod";
 import {render} from "@react-email/render";
 import nodemailer from "nodemailer";
-import { Email } from "@/emails/contact-form-email";
+import { ContactEmail } from "@/emails/contact-form-email";
 import { ContactFormSchema } from "@/lib/schema";
 
 
@@ -15,22 +15,23 @@ export async function sendEmail(data: ContactFormInputs) {
     const transporter = nodemailer.createTransport({
         service: "gmail",
         auth: {
-            user: "khadetou96@gmail.com",
-            pass: "bjcjnteiybkdnnsl",
+            user: process.env.EMAIL,
+            pass: process.env.GOOGLE_APP_PASSWORD,
         },
     });
     
 
-    const emailHtml = render(Email({url:"https://example.com"}));
+   
 
    
 
     if(result.success){
         const {email, name, subject, message, phone} = result.data;
+        const emailHtml = render(ContactEmail({data: result.data}));
         const options ={
-            from: email,
-            to: "hotcodesagency@gmail.com",
-            subject: subject,
+            from: process.env.EMAIL,
+            to: process.env.EMAIL_RECEIVER,
+            subject: `Message envoyé part de ${name} email: ${email} | ${subject}`,
             html: emailHtml
         }
         try {
