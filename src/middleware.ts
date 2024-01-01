@@ -24,8 +24,21 @@ export function middleware(req: NextRequest) {
     (locale) => !pathname.startsWith(`/${locale}/`) && pathname !== `/${locale}`
   );
 
+
+
   if (pathnameIsMissingLocale) {
+  
     const locale = getLocale(req);
+
+    if(locale === i18n.defaultLocale){
+      return NextResponse.rewrite(
+        new URL(
+          `/${locale}${pathname.startsWith("/") ? "" : "/"}${pathname}`,
+          req.url
+        )
+      );
+    }
+
     return NextResponse.redirect(
       new URL(
         `/${locale}${pathname.startsWith("/") ? "" : "/"}${pathname}`,

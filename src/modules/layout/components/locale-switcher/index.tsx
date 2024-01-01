@@ -1,20 +1,39 @@
 "use client";
-import { Fragment, useState } from "react";
+import { Fragment, useEffect, useState } from "react";
 import { Listbox, Transition } from "@headlessui/react";
 import { BsCheck } from "react-icons/bs";
 import { RiArrowDropDownLine } from "react-icons/ri";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { i18n } from "@/modules/i18n/i18n.config";
+import { Locale, i18n } from "@/modules/i18n/i18n.config";
 
 const LocaleSwitcher = () => {
   const pathName = usePathname();
 
   const redirectedPathName = (locale: string) => {
     if (!pathName) return "/";
-    const segments = pathName.split("/");
-    segments[1] = locale;
-    return segments.join("/");
+
+    const pathnameIsMissingLocale = i18n.locales.every(
+      (locale) =>
+        !pathName.startsWith(`/${locale}/`) && pathName !== `/${locale}`
+    );
+
+    if (pathnameIsMissingLocale) {
+      if (locale === i18n.defaultLocale) return pathName;
+      return `/${locale}${pathName}`;
+    } else {
+      if (locale === i18n.defaultLocale) {
+        const segments = pathName.split("/");
+        const isHome = segments.length === 2;
+        if (isHome) return "/";
+
+        segments.splice(1, 1);
+        return segments.join("/");
+      }
+      const segments = pathName.split("/");
+      segments[1] = locale;
+      return segments.join("/");
+    }
   };
 
   const flags = [
@@ -46,8 +65,9 @@ const LocaleSwitcher = () => {
   });
 
   const [selected, setSelected] = useState(
-    pathName.endsWith("en") ? flagsWithLocales[1] : flagsWithLocales[0]
+    pathName.includes("/en") ? flagsWithLocales[1] : flagsWithLocales[0]
   );
+
   return (
     <div className="tw-absolute tw-top-0 tw-w-[124px]">
       <Listbox value={selected} onChange={setSelected}>

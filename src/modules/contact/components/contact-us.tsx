@@ -67,7 +67,7 @@ const ContactUs: FC<ContactUsProps> = ({
         <div className="row">
           <div className="col-lg-10 offset-lg-1">
             <div className="contact-wrap">
-              <h4>{subtitle}</h4>
+              <h4 className="!tw-text-primary">{subtitle}</h4>
               <h2>{title}</h2>
               <p>{paragraph}</p>
               <div className="contact-formv1">

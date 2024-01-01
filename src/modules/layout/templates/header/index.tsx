@@ -5,6 +5,7 @@ import { FC, useEffect, useState } from "react";
 import LocaleSwitcher from "../../components/locale-switcher";
 import useDictionnaries from "@/modules/hooks/useDictionnaries";
 import { usePathname } from "next/navigation";
+import { Locale, i18n } from "@/modules/i18n/i18n.config";
 
 interface HeaderProps {
   dictionary: {
@@ -25,8 +26,11 @@ interface HeaderProps {
       donateButton: string;
     };
   };
+  lang: {
+    lang: Locale;
+  };
 }
-const Header: FC<HeaderProps> = ({ dictionary }) => {
+const Header: FC<HeaderProps> = ({ dictionary, lang: { lang } }) => {
   const [active, setActive] = useState(false);
   const { setdictionnaries } = useDictionnaries();
   const pathname = usePathname();
@@ -47,7 +51,7 @@ const Header: FC<HeaderProps> = ({ dictionary }) => {
     if (dictionary) {
       setdictionnaries(dictionary);
     }
-  }, [dictionary]);
+  }, [dictionary, setdictionnaries]);
 
   return (
     <header className="hoperaiser-header" id="sticky-header">
@@ -58,7 +62,7 @@ const Header: FC<HeaderProps> = ({ dictionary }) => {
               <div className="hoperaiser-logo">
                 <Link
                   className="tw-relative tw-inline-block tw-w-[124px] tw-h-[49px]"
-                  href="/"
+                  href={lang === i18n.defaultLocale ? "/" : `/${lang}`}
                 >
                   <Image
                     fill
@@ -152,15 +156,33 @@ const Header: FC<HeaderProps> = ({ dictionary }) => {
                         : ""
                     }
                   >
-                    <Link href="/" className="sub-btn">
+                    <Link
+                      href={lang === i18n.defaultLocale ? "/" : `/${lang}`}
+                      className="sub-btn"
+                    >
                       {home}
                     </Link>
                   </li>
                   <li className={pathname.endsWith("/about") ? "active" : ""}>
-                    <Link href="/about">{aboutUs}</Link>
+                    <Link
+                      href={
+                        lang === i18n.defaultLocale
+                          ? "/about"
+                          : `/${lang}/about`
+                      }
+                    >
+                      {aboutUs}
+                    </Link>
                   </li>
                   <li className={pathname.endsWith("/events") ? "active" : ""}>
-                    <Link href="/events" className="sub-btn">
+                    <Link
+                      href={
+                        lang === i18n.defaultLocale
+                          ? "/events"
+                          : `/${lang}/events`
+                      }
+                      className="sub-btn"
+                    >
                       {events}
                     </Link>
                   </li>
@@ -174,14 +196,28 @@ const Header: FC<HeaderProps> = ({ dictionary }) => {
                         : ""
                     }
                   >
-                    <Link href="/campaigns" className="sub-btn">
+                    <Link
+                      href={
+                        lang === i18n.defaultLocale
+                          ? "/campaigns"
+                          : `/${lang}/campaigns`
+                      }
+                      className="sub-btn"
+                    >
                       {campaign}
                     </Link>
                   </li>
                   <li
                     className={pathname.endsWith("/volunteer") ? "active" : ""}
                   >
-                    <Link href="/volunteer" className="sub-btn">
+                    <Link
+                      href={
+                        lang === i18n.defaultLocale
+                          ? "/volunteer"
+                          : `/${lang}/volunteer`
+                      }
+                      className="sub-btn"
+                    >
                       {volunteer}
                     </Link>
                   </li>
@@ -189,12 +225,20 @@ const Header: FC<HeaderProps> = ({ dictionary }) => {
                   <li
                     className={pathname.endsWith("/contact-us") ? "active" : ""}
                   >
-                    <Link href="/contact-us">{contact}</Link>
+                    <Link
+                      href={
+                        lang === i18n.defaultLocale
+                          ? "/contact-us"
+                          : `/${lang}/contact-us`
+                      }
+                    >
+                      {contact}
+                    </Link>
                   </li>
                 </ul>
               </nav>
               <div className="mobile-user-contact-top">
-                <div className="hoperaiser-top-user">
+                {/* <div className="hoperaiser-top-user">
                   <a href="#">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -211,11 +255,13 @@ const Header: FC<HeaderProps> = ({ dictionary }) => {
                       />
                     </svg>
                   </a>
-                </div>
+                </div> */}
                 <div className="hoperaiser-top-contact">
                   <p>
-                    <span>{contactUs}</span> <br />
-                    <a href="tel:+914346548765">+91 434 654 8765</a>
+                    <span className="!tw-text-white">{contactUs}</span> <br />
+                    <a className="!tw-text-white" href="tel:+914346548765">
+                      +91 434 654 8765
+                    </a>
                   </p>
                 </div>
               </div>
@@ -247,7 +293,7 @@ const Header: FC<HeaderProps> = ({ dictionary }) => {
                   </button>
                 </form>
               </div> */}
-              <div className="hoperaiser-top-user tw-py-9">
+              {/* <div className="hoperaiser-top-user tw-py-9">
                 <a href="#">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -264,8 +310,8 @@ const Header: FC<HeaderProps> = ({ dictionary }) => {
                     />
                   </svg>
                 </a>
-              </div>
-              <div className="hoperaiser-top-contact ">
+              </div> */}
+              <div className="hoperaiser-top-contact  !tw-py-7">
                 <p>
                   <span>{contactUs}</span> <br />
                   <a href="tel:+221772153704">(+221) 77 215 37 04</a>
