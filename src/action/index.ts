@@ -34,6 +34,7 @@ export async function sendEmail(data: ContactFormInputs) {
             const data =   await transporter.sendMail(options);
             return {success: true, data}
            } catch (error) {
+               console.log(error)
                return {success: false, error}
            }
     }
