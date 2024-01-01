@@ -15,22 +15,18 @@ export async function sendEmail(data: ContactFormInputs) {
     const transporter = nodemailer.createTransport({
         service: "gmail",
         auth: {
-            user: process.env.EMAIL,
-            pass: process.env.GOOGLE_APP_PASSWORD,
+            user: process.env.NEXT_PUBLIC_EMAIL,
+            pass: process.env.NEXT_PUBLIC_GOOGLE_APP_PASSWORD,
         },
     });
-    
-
-   
-
-   
+     
 
     if(result.success){
         const {email, name, subject, message, phone} = result.data;
         const emailHtml = render(ContactEmail({data: result.data}));
         const options ={
-            from: process.env.EMAIL,
-            to: process.env.EMAIL_RECEIVER,
+            from: process.env.NEXT_PUBLIC_EMAIL,
+            to: process.env.NEXT_PUBLIC_EMAIL_RECEIVER,
             subject: `Message envoyé part de ${name} email: ${email} | ${subject}`,
             html: emailHtml
         }
